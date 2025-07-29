@@ -43,7 +43,7 @@ struct HerbCardView: View {
                         
                         // Show localized name under scientific name if different from English
                         if hasLocalizedName {
-                            Text(localizedName)
+                            Text("Localized Name: \(localizedName)")
                                 .font(.caption)
                                 .foregroundColor(.blue)
                                 .lineLimit(1)

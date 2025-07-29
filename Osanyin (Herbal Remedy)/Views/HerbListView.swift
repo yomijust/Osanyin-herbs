@@ -292,7 +292,7 @@ struct ModernHerbCard: View {
                         
                         // Show localized name under scientific name if different from English
                         if hasLocalizedName {
-                            Text(localizedName)
+                            Text("Localized Name: \(localizedName)")
                                 .font(.system(size: 12, weight: .medium))
                                 .foregroundColor(.blue)
                                 .lineLimit(1)
