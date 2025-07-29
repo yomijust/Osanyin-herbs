@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 
+    SECURITY WARNING: 
+    - Copy this file to Config.plist
+    - Add Config.plist to .gitignore
+    - Replace YOUR_API_KEY_HERE with your actual OpenAI API key
+    - Never commit the actual Config.plist file to version control
+    -->
+    <key>OpenAIAPIKey</key>
+    <string>YOUR_API_KEY_HERE</string>
+    
+    <!-- Optional: Additional configuration options -->
+    <key>OpenAIModel</key>
+    <string>gpt-4</string>
+    
+    <key>MaxRequestsPerMinute</key>
+    <integer>60</integer>
+    
+    <key>MaxRequestsPerHour</key>
+    <integer>1000</integer>
+</dict>
+</plist> 

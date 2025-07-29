@@ -1,0 +1,67 @@
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Sensitive Configuration Files
+# NEVER commit these files to version control!
+Config.plist
+**/Config.plist
+*.env
+.env.local
+.env.production
+
+# API Keys and Secrets
+**/secrets.plist
+**/keys.plist
+**/api_keys.plist
+
+# User-specific files
+*.xcuserstate
+*.xcuserdatad/
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp 

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Osanyin__Herbal_Remedy_App: App {
+    let coreDataManager = CoreDataManager.shared
+    @AppStorage("darkModeEnabled") private var darkModeEnabled = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environment(\.managedObjectContext, coreDataManager.context)
+                .preferredColorScheme(darkModeEnabled ? .dark : .light)
         }
     }
 }
