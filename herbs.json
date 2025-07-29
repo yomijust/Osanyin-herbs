@@ -1,0 +1,4742 @@
+{
+  "herbs": [
+    {
+      "id": "zobo_ng",
+      "english_name": "Hibiscus Tea",
+      "local_names": {
+        "NG": "Zobo",
+        "SD": "Karkade",
+        "EG": "Karkadeh"
+      },
+      "scientific_name": "Hibiscus sabdariffa",
+      "description": "A tangy herbal drink made from dried hibiscus petals, known for its refreshing taste and potential health benefits including blood pressure regulation.",
+      "uses": [
+        "Refreshment",
+        "Blood pressure",
+        "Antioxidant",
+        "Digestive health"
+      ],
+      "category": "Refresher",
+      "vitamins": [
+        "C",
+        "B1",
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 5,
+        "carbs": 1.2
+      },
+      "ailments": [
+        "Hypertension",
+        "Fatigue",
+        "Digestive issues"
+      ],
+      "locations": [
+        "West Africa",
+        "North Africa",
+        "Tropics"
+      ],
+      "preparation": "Boil dried petals in water for 10-15 minutes, strain and serve hot or cold",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy, may interact with blood pressure medications",
+      "honey_usage": "Common sweetener to balance tartness",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hibiscus_tea"
+    },
+    {
+      "id": "ginger_tea",
+      "english_name": "Ginger Tea",
+      "local_names": {
+        "IN": "Adrak Chai",
+        "CN": "姜茶",
+        "JP": "生姜茶"
+      },
+      "scientific_name": "Zingiber officinale",
+      "description": "A warming herbal tea made from fresh or dried ginger root, known for its anti-inflammatory and digestive properties.",
+      "uses": [
+        "Digestive health",
+        "Anti-inflammatory",
+        "Nausea relief",
+        "Immunity boost"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "B6",
+        "C",
+        "Magnesium"
+      ],
+      "nutrition": {
+        "calories": 2,
+        "carbs": 0.4
+      },
+      "ailments": [
+        "Nausea",
+        "Indigestion",
+        "Cold",
+        "Inflammation"
+      ],
+      "locations": [
+        "Asia",
+        "Tropics",
+        "Worldwide"
+      ],
+      "preparation": "Slice fresh ginger and steep in hot water for 5-10 minutes",
+      "dosage": "1-3 cups daily",
+      "precautions": "May cause heartburn in some people, avoid on empty stomach",
+      "honey_usage": "Excellent with honey for soothing sore throat",
+      "continents": [
+        "AS",
+        "AF",
+        "NA",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ginger_tea"
+    },
+    {
+      "id": "mint_tea",
+      "english_name": "Mint Tea",
+      "local_names": {
+        "MA": "Atay",
+        "EG": "Shai Na'na",
+        "TR": "Nane Çayı"
+      },
+      "scientific_name": "Mentha spicata",
+      "description": "A refreshing herbal tea made from fresh or dried mint leaves, known for its cooling properties and digestive benefits.",
+      "uses": [
+        "Digestive health",
+        "Refreshment",
+        "Stress relief",
+        "Breath freshener"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "A",
+        "C",
+        "Iron"
+      ],
+      "nutrition": {
+        "calories": 1,
+        "carbs": 0.2
+      },
+      "ailments": [
+        "Indigestion",
+        "Nausea",
+        "Stress",
+        "Bad breath"
+      ],
+      "locations": [
+        "Mediterranean",
+        "North Africa",
+        "Middle East"
+      ],
+      "preparation": "Steep fresh mint leaves in hot water for 3-5 minutes",
+      "dosage": "2-4 cups daily",
+      "precautions": "Generally safe, may cause heartburn in some individuals",
+      "honey_usage": "Light honey enhances the refreshing taste",
+      "continents": [
+        "AF",
+        "EU",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mint_tea"
+    },
+    {
+      "id": "chamomile_tea",
+      "english_name": "Chamomile Tea",
+      "local_names": {
+        "DE": "Kamillentee",
+        "GR": "Χαμομήλι",
+        "EG": "Babuneg"
+      },
+      "scientific_name": "Matricaria chamomilla",
+      "description": "A gentle herbal tea made from chamomile flowers, known for its calming and sleep-inducing properties.",
+      "uses": [
+        "Sleep aid",
+        "Stress relief",
+        "Digestive health",
+        "Anti-inflammatory"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "A",
+        "C",
+        "Calcium"
+      ],
+      "nutrition": {
+        "calories": 1,
+        "carbs": 0.2
+      },
+      "ailments": [
+        "Insomnia",
+        "Anxiety",
+        "Indigestion",
+        "Skin irritation"
+      ],
+      "locations": [
+        "Europe",
+        "North America",
+        "Asia"
+      ],
+      "preparation": "Steep dried chamomile flowers in hot water for 5-7 minutes",
+      "dosage": "1-2 cups before bedtime",
+      "precautions": "May cause allergic reactions in people sensitive to ragweed",
+      "honey_usage": "Honey enhances the calming effect",
+      "continents": [
+        "EU",
+        "NA",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chamomile_tea"
+    },
+    {
+      "id": "lemongrass_tea",
+      "english_name": "Lemongrass Tea",
+      "local_names": {
+        "TH": "ชาตะไคร้",
+        "VN": "Trà sả",
+        "ID": "Teh Serai"
+      },
+      "scientific_name": "Cymbopogon citratus",
+      "description": "A citrusy herbal tea made from lemongrass stalks, known for its digestive and antimicrobial properties.",
+      "uses": [
+        "Digestive health",
+        "Antimicrobial",
+        "Stress relief",
+        "Detoxification"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "A",
+        "C",
+        "Folate"
+      ],
+      "nutrition": {
+        "calories": 1,
+        "carbs": 0.2
+      },
+      "ailments": [
+        "Indigestion",
+        "Anxiety",
+        "Fever",
+        "Inflammation"
+      ],
+      "locations": [
+        "Southeast Asia",
+        "India",
+        "Tropics"
+      ],
+      "preparation": "Boil fresh lemongrass stalks in water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Generally safe, avoid during pregnancy",
+      "honey_usage": "Honey balances the citrus notes beautifully",
+      "continents": [
+        "AS",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Lemongrass_tea"
+    },
+    {
+      "id": "turmeric_tea",
+      "english_name": "Turmeric Tea",
+      "local_names": {
+        "IN": "Haldi Chai",
+        "ID": "Teh Kunyit",
+        "MY": "Teh Kunyit"
+      },
+      "scientific_name": "Curcuma longa",
+      "description": "A golden herbal tea made from turmeric root, known for its powerful anti-inflammatory and antioxidant properties.",
+      "uses": [
+        "Anti-inflammatory",
+        "Antioxidant",
+        "Immunity boost",
+        "Digestive health"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "C",
+        "E",
+        "K"
+      ],
+      "nutrition": {
+        "calories": 2,
+        "carbs": 0.4
+      },
+      "ailments": [
+        "Inflammation",
+        "Arthritis",
+        "Cold",
+        "Digestive issues"
+      ],
+      "locations": [
+        "South Asia",
+        "Southeast Asia",
+        "Tropics"
+      ],
+      "preparation": "Boil fresh turmeric root or powder with black pepper for 10 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "May interact with blood thinners, avoid on empty stomach",
+      "honey_usage": "Honey and milk enhance absorption and taste",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Turmeric_tea"
+    },
+    {
+      "id": "cinnamon_tea",
+      "english_name": "Cinnamon Tea",
+      "local_names": {
+        "IN": "Dalchini Chai",
+        "LK": "කුරුඳු තේ",
+        "AR": "شاي القرفة"
+      },
+      "scientific_name": "Cinnamomum verum",
+      "description": "A warming herbal tea made from cinnamon bark, known for its blood sugar regulation and warming properties.",
+      "uses": [
+        "Blood sugar control",
+        "Warming",
+        "Digestive health",
+        "Antimicrobial"
+      ],
+      "category": "Spice",
+      "vitamins": [
+        "K",
+        "Iron",
+        "Calcium"
+      ],
+      "nutrition": {
+        "calories": 3,
+        "carbs": 0.8
+      },
+      "ailments": [
+        "Diabetes",
+        "Cold",
+        "Indigestion",
+        "Inflammation"
+      ],
+      "locations": [
+        "Sri Lanka",
+        "India",
+        "Southeast Asia"
+      ],
+      "preparation": "Steep cinnamon sticks in hot water for 5-10 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "May lower blood sugar, monitor if diabetic",
+      "honey_usage": "Natural pairing that enhances sweetness",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cinnamon_tea"
+    },
+    {
+      "id": "cardamom_tea",
+      "english_name": "Cardamom Tea",
+      "local_names": {
+        "IN": "Elaichi Chai",
+        "PK": "ایلیچی چائے",
+        "AE": "شاي الهيل"
+      },
+      "scientific_name": "Elettaria cardamomum",
+      "description": "A fragrant herbal tea made from cardamom pods, known for its digestive and breath-freshening properties.",
+      "uses": [
+        "Digestive health",
+        "Breath freshener",
+        "Stress relief",
+        "Antimicrobial"
+      ],
+      "category": "Spice",
+      "vitamins": [
+        "C",
+        "B6",
+        "Iron"
+      ],
+      "nutrition": {
+        "calories": 2,
+        "carbs": 0.4
+      },
+      "ailments": [
+        "Indigestion",
+        "Bad breath",
+        "Nausea",
+        "Anxiety"
+      ],
+      "locations": [
+        "South Asia",
+        "Middle East",
+        "Tropics"
+      ],
+      "preparation": "Crush cardamom pods and steep in hot water for 5-7 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Generally safe, may cause heartburn in some people",
+      "honey_usage": "Honey complements the aromatic flavor",
+      "continents": [
+        "AS",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cardamom_tea"
+    },
+    {
+      "id": "fennel_tea",
+      "english_name": "Fennel Tea",
+      "local_names": {
+        "IN": "Saunf Chai",
+        "IT": "Tè al Finocchio",
+        "TR": "Rezene Çayı"
+      },
+      "scientific_name": "Foeniculum vulgare",
+      "description": "A sweet herbal tea made from fennel seeds, known for its digestive and lactation-promoting properties.",
+      "uses": [
+        "Digestive health",
+        "Lactation",
+        "Breath freshener",
+        "Anti-inflammatory"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "C",
+        "A",
+        "Calcium"
+      ],
+      "nutrition": {
+        "calories": 1,
+        "carbs": 0.2
+      },
+      "ailments": [
+        "Indigestion",
+        "Bloating",
+        "Colic",
+        "Bad breath"
+      ],
+      "locations": [
+        "Mediterranean",
+        "South Asia",
+        "Europe"
+      ],
+      "preparation": "Steep fennel seeds in hot water for 5-10 minutes",
+      "dosage": "1-3 cups daily",
+      "precautions": "May affect hormone levels, avoid during pregnancy",
+      "honey_usage": "Honey enhances the natural sweetness",
+      "continents": [
+        "EU",
+        "AS",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fennel_tea"
+    },
+    {
+      "id": "dandelion_tea",
+      "english_name": "Dandelion Tea",
+      "local_names": {
+        "FR": "Thé de Pissenlit",
+        "DE": "Löwenzahntee",
+        "IT": "Tè di Tarassaco"
+      },
+      "scientific_name": "Taraxacum officinale",
+      "description": "A bitter herbal tea made from dandelion roots or leaves, known for its liver-supporting and diuretic properties.",
+      "uses": [
+        "Liver health",
+        "Diuretic",
+        "Digestive health",
+        "Detoxification"
+      ],
+      "category": "Herb",
+      "vitamins": [
+        "A",
+        "C",
+        "K"
+      ],
+      "nutrition": {
+        "calories": 1,
+        "carbs": 0.2
+      },
+      "ailments": [
+        "Liver issues",
+        "Water retention",
+        "Digestive problems",
+        "Skin issues"
+      ],
+      "locations": [
+        "Europe",
+        "North America",
+        "Asia"
+      ],
+      "preparation": "Steep dried dandelion root or leaves in hot water for 10 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "May interact with diuretics, avoid if allergic to ragweed",
+      "honey_usage": "Honey helps balance the bitter taste",
+      "continents": [
+        "EU",
+        "NA",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dandelion_tea"
+    },
+    {
+      "id": "burdock_1802",
+      "english_name": "Burdock",
+      "local_names": {
+        "KE": "Muthiga",
+        "BD": "Jeera",
+        "TH": "Kha"
+      },
+      "scientific_name": "Coriandrum sativum",
+      "description": "Traditional herb valued for its respiratory effects and healing properties.",
+      "uses": [
+        "Energy",
+        "Vitality",
+        "Health tonic",
+        "Wellness"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "E",
+        "C",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 126,
+        "carbs": 26.5
+      },
+      "ailments": [
+        "Muscle pain"
+      ],
+      "locations": [
+        "Tropics",
+        "Temperate regions"
+      ],
+      "preparation": "Extract burdock juice and dilute with water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "OC",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Burdock"
+    },
+    {
+      "id": "celandine_4524",
+      "english_name": "Celandine",
+      "local_names": {
+        "EG": "Hibiscus",
+        "ZA": "Umfino",
+        "PK": "Amla"
+      },
+      "scientific_name": "Citrus bergamia",
+      "description": "Traditional herb valued for its first aid effects and healing properties.",
+      "uses": [
+        "Wellness",
+        "Detox",
+        "Energy"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 428,
+        "carbs": 10.4
+      },
+      "ailments": [
+        "Fatigue",
+        "Insomnia",
+        "Pain",
+        "Cough"
+      ],
+      "locations": [
+        "Asia"
+      ],
+      "preparation": "Infuse celandine powder in warm water or milk",
+      "dosage": "1-2 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AS",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Celandine"
+    },
+    {
+      "id": "mugwort_4594",
+      "english_name": "Mugwort",
+      "local_names": {
+        "TH": "Khamin",
+        "IN": "Ashwagandha",
+        "KE": "Mukinduri"
+      },
+      "scientific_name": "Hydrastis canadensis",
+      "description": "Ancient remedy used for wellness, energy and overall wellness.",
+      "uses": [
+        "Wellness",
+        "Energy"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "E",
+        "K",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 353,
+        "carbs": 30.1
+      },
+      "ailments": [
+        "Insomnia"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Africa"
+      ],
+      "preparation": "Steep dried mugwort in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mugwort"
+    },
+    {
+      "id": "flax_seeds_7171",
+      "english_name": "Flax Seeds",
+      "local_names": {
+        "PK": "Amla",
+        "IN": "Amla"
+      },
+      "scientific_name": "Glycyrrhiza glabra",
+      "description": "Ancient remedy used for detox, health tonic and overall wellness.",
+      "uses": [
+        "Detox",
+        "Health tonic"
+      ],
+      "category": "Detox",
+      "vitamins": [
+        "B7",
+        "A",
+        "B9",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 198,
+        "carbs": 38.1
+      },
+      "ailments": [
+        "Skin issues",
+        "Pain",
+        "Fatigue"
+      ],
+      "locations": [
+        "Tropics",
+        "Africa",
+        "Subtropics"
+      ],
+      "preparation": "Steep dried flax seeds in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Flax_Seeds"
+    },
+    {
+      "id": "oregano_8216",
+      "english_name": "Oregano",
+      "local_names": {
+        "PK": "Ashwagandha",
+        "TH": "Khing"
+      },
+      "scientific_name": "Serenoa repens",
+      "description": "Natural plant with men's health effects, commonly used in traditional medicine.",
+      "uses": [
+        "Detox",
+        "Health tonic",
+        "Energy",
+        "Wellness"
+      ],
+      "category": "Men's Health",
+      "vitamins": [
+        "B6",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 452,
+        "carbs": 4.2
+      },
+      "ailments": [
+        "Joint pain"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "preparation": "Crush oregano and steep in hot water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Oregano"
+    },
+    {
+      "id": "chamomile_3896",
+      "english_name": "Chamomile",
+      "local_names": {
+        "LK": "Inguru",
+        "NG": "Scent Leaf"
+      },
+      "scientific_name": "Salvia hispanica",
+      "description": "Ancient remedy used for nausea relief, bloating relief and overall wellness.",
+      "uses": [
+        "Nausea relief",
+        "Bloating relief",
+        "Appetite stimulation",
+        "Gut health"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B5",
+        "B1",
+        "B9",
+        "B3"
+      ],
+      "nutrition": {
+        "calories": 262,
+        "carbs": 25.3
+      },
+      "ailments": [
+        "Stress",
+        "Nausea",
+        "Anxiety"
+      ],
+      "locations": [
+        "South America",
+        "Europe",
+        "North America"
+      ],
+      "preparation": "Infuse chamomile powder in warm water or milk",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chamomile"
+    },
+    {
+      "id": "maca_5146",
+      "english_name": "Maca",
+      "local_names": {
+        "PK": "Ashwagandha",
+        "TH": "Kha",
+        "BD": "Jeera"
+      },
+      "scientific_name": "Tagetes erecta",
+      "description": "A traditional herb known for its women's health properties and health benefits.",
+      "uses": [
+        "Energy",
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "A",
+        "C",
+        "K",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 234,
+        "carbs": 15.9
+      },
+      "ailments": [
+        "Skin issues",
+        "Inflammation",
+        "Insomnia",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "Asia",
+        "Temperate regions",
+        "Subtropics"
+      ],
+      "preparation": "Infuse maca powder in warm water or milk",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Maca"
+    },
+    {
+      "id": "plantain_9632",
+      "english_name": "Plantain",
+      "local_names": {
+        "GH": "Mmakantadua",
+        "ZA": "Umfino",
+        "PK": "Ashwagandha",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Trifolium pratense",
+      "description": "Traditional herb valued for its digestive effects and healing properties.",
+      "uses": [
+        "Gut health",
+        "Appetite stimulation"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B3",
+        "A",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 378,
+        "carbs": 22.1
+      },
+      "ailments": [
+        "Anxiety"
+      ],
+      "locations": [
+        "Europe",
+        "Temperate regions"
+      ],
+      "preparation": "Boil fresh plantain leaves in water for 5-10 minutes",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Plantain"
+    },
+    {
+      "id": "nettle_6075",
+      "english_name": "Nettle",
+      "local_names": {
+        "ZA": "Umvuthuza",
+        "NG": "Efirin",
+        "PK": "Amla"
+      },
+      "scientific_name": "Angelica archangelica",
+      "description": "Traditional herb valued for its cardiovascular effects and healing properties.",
+      "uses": [
+        "Vitality",
+        "Energy",
+        "Wellness",
+        "Health tonic"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "B12",
+        "B6"
+      ],
+      "nutrition": {
+        "calories": 232,
+        "carbs": 12.5
+      },
+      "ailments": [
+        "Anxiety",
+        "Joint pain",
+        "Pain"
+      ],
+      "locations": [
+        "South America",
+        "Mediterranean"
+      ],
+      "preparation": "Boil fresh nettle leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nettle"
+    },
+    {
+      "id": "ashwagandha_8663",
+      "english_name": "Ashwagandha",
+      "local_names": {
+        "ZA": "Umvuthuza",
+        "KE": "Muthiga",
+        "GH": "Kakaduro"
+      },
+      "scientific_name": "Moringa oleifera",
+      "description": "Ancient remedy used for anti-inflammatory, pain relief and overall wellness.",
+      "uses": [
+        "Anti-inflammatory",
+        "Pain relief"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "D"
+      ],
+      "nutrition": {
+        "calories": 384,
+        "carbs": 10.9
+      },
+      "ailments": [
+        "Skin issues",
+        "Muscle pain",
+        "Respiratory issues",
+        "Stress"
+      ],
+      "locations": [
+        "Mediterranean",
+        "South America"
+      ],
+      "preparation": "Steep dried ashwagandha in hot water for 10-15 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ashwagandha"
+    },
+    {
+      "id": "angelica_7040",
+      "english_name": "Angelica",
+      "local_names": {
+        "KE": "Mukombero",
+        "PK": "Haldi",
+        "ZA": "Imifino"
+      },
+      "scientific_name": "Plantago major",
+      "description": "Natural plant with detox effects, commonly used in traditional medicine.",
+      "uses": [
+        "Health tonic",
+        "Energy"
+      ],
+      "category": "Detox",
+      "vitamins": [
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 226,
+        "carbs": 16.5
+      },
+      "ailments": [
+        "Muscle pain",
+        "Nausea",
+        "Insomnia"
+      ],
+      "locations": [
+        "Subtropics",
+        "North America"
+      ],
+      "preparation": "Boil fresh angelica leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angelica"
+    },
+    {
+      "id": "peppermint_4958",
+      "english_name": "Peppermint",
+      "local_names": {
+        "LK": "Inguru",
+        "EG": "Karkadeh"
+      },
+      "scientific_name": "Hypericum perforatum",
+      "description": "Ancient remedy used for health tonic, detox and overall wellness.",
+      "uses": [
+        "Health tonic",
+        "Detox",
+        "Energy"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "K",
+        "B7",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 274,
+        "carbs": 13.1
+      },
+      "ailments": [
+        "Digestive issues"
+      ],
+      "locations": [
+        "Asia",
+        "South America",
+        "Subtropics"
+      ],
+      "preparation": "Boil fresh peppermint leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Peppermint"
+    },
+    {
+      "id": "catnip_8748",
+      "english_name": "Catnip",
+      "local_names": {
+        "EG": "Karkadeh",
+        "BD": "Jeera",
+        "KE": "Muthaiga",
+        "ZA": "Umhlabangubo"
+      },
+      "scientific_name": "Linum usitatissimum",
+      "description": "Herbal remedy with women's health benefits and therapeutic properties.",
+      "uses": [
+        "Wellness",
+        "Health tonic"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "K",
+        "B5",
+        "C",
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 47,
+        "carbs": 3.0
+      },
+      "ailments": [
+        "Nausea",
+        "Respiratory issues",
+        "Fatigue",
+        "Pain"
+      ],
+      "locations": [
+        "South America"
+      ],
+      "preparation": "Steep dried catnip in hot water for 10-15 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "OC",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Catnip"
+    },
+    {
+      "id": "chia_seeds_3731",
+      "english_name": "Chia Seeds",
+      "local_names": {
+        "LK": "Inguru",
+        "ZA": "Umhlonyane",
+        "IN": "Amla",
+        "TH": "Kha"
+      },
+      "scientific_name": "Symphytum officinale",
+      "description": "Herbal remedy with energy benefits and therapeutic properties.",
+      "uses": [
+        "Detox",
+        "Energy"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "D",
+        "B7",
+        "B3",
+        "B1"
+      ],
+      "nutrition": {
+        "calories": 235,
+        "carbs": 42.0
+      },
+      "ailments": [
+        "Headache",
+        "Joint pain"
+      ],
+      "locations": [
+        "Asia"
+      ],
+      "preparation": "Crush chia seeds and steep in hot water",
+      "dosage": "1-2 cups daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chia_Seeds"
+    },
+    {
+      "id": "cayenne_4004",
+      "english_name": "Cayenne",
+      "local_names": {
+        "TH": "Khing",
+        "NG": "Ugba"
+      },
+      "scientific_name": "Melissa officinalis",
+      "description": "Traditional herb valued for its first aid effects and healing properties.",
+      "uses": [
+        "Detox",
+        "Energy"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 341,
+        "carbs": 40.3
+      },
+      "ailments": [
+        "Fever",
+        "Digestive issues",
+        "Headache",
+        "Skin issues"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Tropics",
+        "Temperate regions"
+      ],
+      "preparation": "Infuse cayenne powder in warm water or milk",
+      "dosage": "1-2 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "AF",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cayenne"
+    },
+    {
+      "id": "white_pepper_3419",
+      "english_name": "White Pepper",
+      "local_names": {
+        "GH": "Hwentia",
+        "TH": "Khamin",
+        "IN": "Neem",
+        "KE": "Muthiga"
+      },
+      "scientific_name": "Dioscorea villosa",
+      "description": "Natural plant with digestive effects, commonly used in traditional medicine.",
+      "uses": [
+        "Digestive health",
+        "Nausea relief",
+        "Gut health",
+        "Appetite stimulation"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "E"
+      ],
+      "nutrition": {
+        "calories": 280,
+        "carbs": 27.0
+      },
+      "ailments": [
+        "Fever",
+        "Nausea",
+        "Muscle pain"
+      ],
+      "locations": [
+        "Africa",
+        "Asia"
+      ],
+      "preparation": "Infuse white pepper powder in warm water or milk",
+      "dosage": "1-2 grams daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "OC",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/White_Pepper"
+    },
+    {
+      "id": "feverfew_8353",
+      "english_name": "Feverfew",
+      "local_names": {
+        "ZA": "Umhlonyane",
+        "EG": "Hibiscus",
+        "GH": "Kakaduro"
+      },
+      "scientific_name": "Piper methysticum",
+      "description": "Herbal remedy with anti-inflammatory benefits and therapeutic properties.",
+      "uses": [
+        "Muscle recovery",
+        "Anti-inflammatory",
+        "Pain relief"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "B6",
+        "A",
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 157,
+        "carbs": 48.0
+      },
+      "ailments": [
+        "Digestive issues",
+        "Fatigue",
+        "Stress",
+        "Insomnia"
+      ],
+      "locations": [
+        "Tropics"
+      ],
+      "preparation": "Extract feverfew juice and dilute with water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Feverfew"
+    },
+    {
+      "id": "angelica_3603",
+      "english_name": "Angelica",
+      "local_names": {
+        "TH": "Kha",
+        "NG": "Water Leaf"
+      },
+      "scientific_name": "Viburnum opulus",
+      "description": "Traditional herb valued for its relaxation effects and healing properties.",
+      "uses": [
+        "Anxiety reduction",
+        "Sleep aid",
+        "Calming",
+        "Stress relief"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "A"
+      ],
+      "nutrition": {
+        "calories": 202,
+        "carbs": 35.5
+      },
+      "ailments": [
+        "Nausea"
+      ],
+      "locations": [
+        "Asia",
+        "Caribbean",
+        "North America"
+      ],
+      "preparation": "Extract angelica juice and dilute with water",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "AS",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angelica"
+    },
+    {
+      "id": "chia_seeds_9456",
+      "english_name": "Chia Seeds",
+      "local_names": {
+        "LK": "Kaha",
+        "KE": "Mukinduri",
+        "EG": "Zobo",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Schisandra chinensis",
+      "description": "Ancient remedy used for detox, vitality and overall wellness.",
+      "uses": [
+        "Detox",
+        "Vitality",
+        "Energy"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 469,
+        "carbs": 13.7
+      },
+      "ailments": [
+        "Fatigue"
+      ],
+      "locations": [
+        "South America",
+        "Caribbean",
+        "Asia"
+      ],
+      "preparation": "Infuse chia seeds powder in warm water or milk",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chia_Seeds"
+    },
+    {
+      "id": "horehound_9586",
+      "english_name": "Horehound",
+      "local_names": {
+        "BD": "Holud",
+        "NG": "Efirin",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Myristica fragrans",
+      "description": "Ancient remedy used for anxiety reduction, calming and overall wellness.",
+      "uses": [
+        "Anxiety reduction",
+        "Calming",
+        "Stress relief"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B3",
+        "B2",
+        "E"
+      ],
+      "nutrition": {
+        "calories": 111,
+        "carbs": 18.5
+      },
+      "ailments": [
+        "Fatigue",
+        "Skin issues"
+      ],
+      "locations": [
+        "Caribbean"
+      ],
+      "preparation": "Steep dried horehound in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Horehound"
+    },
+    {
+      "id": "schisandra_5960",
+      "english_name": "Schisandra",
+      "local_names": {
+        "TH": "Krachai",
+        "IN": "Neem"
+      },
+      "scientific_name": "Allium sativum",
+      "description": "Traditional herb valued for its skin health effects and healing properties.",
+      "uses": [
+        "Energy",
+        "Detox",
+        "Health tonic",
+        "Wellness"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "B2",
+        "B7",
+        "B9",
+        "C"
+      ],
+      "nutrition": {
+        "calories": 145,
+        "carbs": 22.3
+      },
+      "ailments": [
+        "Nausea",
+        "Headache",
+        "Digestive issues"
+      ],
+      "locations": [
+        "Temperate regions",
+        "Africa",
+        "Subtropics"
+      ],
+      "preparation": "Steep dried schisandra in hot water for 10-15 minutes",
+      "dosage": "2-3 cups daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "OC",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Schisandra"
+    },
+    {
+      "id": "mugwort_8373",
+      "english_name": "Mugwort",
+      "local_names": {
+        "EG": "Karkadeh",
+        "BD": "Haldi",
+        "ZA": "Imifino",
+        "IN": "Amla"
+      },
+      "scientific_name": "Stellaria media",
+      "description": "Ancient remedy used for vitality, health tonic and overall wellness.",
+      "uses": [
+        "Vitality",
+        "Health tonic",
+        "Energy",
+        "Wellness"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "C",
+        "B1",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 315,
+        "carbs": 11.9
+      },
+      "ailments": [
+        "Skin issues"
+      ],
+      "locations": [
+        "Temperate regions",
+        "Africa"
+      ],
+      "preparation": "Boil fresh mugwort leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "AF",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mugwort"
+    },
+    {
+      "id": "white_pepper_7297",
+      "english_name": "White Pepper",
+      "local_names": {
+        "GH": "Kokroko",
+        "EG": "Hibiscus",
+        "ZA": "Umsobo",
+        "NG": "Water Leaf"
+      },
+      "scientific_name": "Dioscorea villosa",
+      "description": "Herbal remedy with first aid benefits and therapeutic properties.",
+      "uses": [
+        "Health tonic",
+        "Energy"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "A",
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 99,
+        "carbs": 31.9
+      },
+      "ailments": [
+        "Pain",
+        "Inflammation",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "North America",
+        "Temperate regions"
+      ],
+      "preparation": "Steep dried white pepper in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "EU",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/White_Pepper"
+    },
+    {
+      "id": "mustard_1565",
+      "english_name": "Mustard",
+      "local_names": {
+        "PK": "Ashwagandha",
+        "NG": "Okazi",
+        "LK": "Maduru"
+      },
+      "scientific_name": "Ocimum basilicum",
+      "description": "Natural plant with cardiovascular effects, commonly used in traditional medicine.",
+      "uses": [
+        "Vitality",
+        "Energy",
+        "Health tonic",
+        "Wellness"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "B12",
+        "B5",
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 218,
+        "carbs": 2.6
+      },
+      "ailments": [
+        "Fever"
+      ],
+      "locations": [
+        "South America",
+        "Asia"
+      ],
+      "preparation": "Crush mustard and steep in hot water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mustard"
+    },
+    {
+      "id": "coltsfoot_4171",
+      "english_name": "Coltsfoot",
+      "local_names": {
+        "EG": "Karkadeh",
+        "GH": "Nkruma",
+        "LK": "Kothamalli",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Cuminum cyminum",
+      "description": "A traditional herb known for its men's health properties and health benefits.",
+      "uses": [
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Men's Health",
+      "vitamins": [
+        "B6",
+        "B7",
+        "B9",
+        "E"
+      ],
+      "nutrition": {
+        "calories": 152,
+        "carbs": 41.5
+      },
+      "ailments": [
+        "Pain",
+        "Fever",
+        "Fatigue",
+        "Muscle pain"
+      ],
+      "locations": [
+        "Subtropics",
+        "North America"
+      ],
+      "preparation": "Infuse coltsfoot powder in warm water or milk",
+      "dosage": "1-2 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Coltsfoot"
+    },
+    {
+      "id": "neem_9714",
+      "english_name": "Neem",
+      "local_names": {
+        "TH": "Krachai",
+        "KE": "Muthiga"
+      },
+      "scientific_name": "Syzygium aromaticum",
+      "description": "Natural plant with nervous system effects, commonly used in traditional medicine.",
+      "uses": [
+        "Detox",
+        "Health tonic",
+        "Vitality"
+      ],
+      "category": "Nervous System",
+      "vitamins": [
+        "D",
+        "B2",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 248,
+        "carbs": 36.8
+      },
+      "ailments": [
+        "Fatigue",
+        "Headache",
+        "Inflammation"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "preparation": "Crush neem and steep in hot water",
+      "dosage": "1-2 grams daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "NA",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Neem"
+    },
+    {
+      "id": "feverfew_4061",
+      "english_name": "Feverfew",
+      "local_names": {
+        "PK": "Haldi",
+        "KE": "Muthiga",
+        "GH": "Akokobesa"
+      },
+      "scientific_name": "Illicium verum",
+      "description": "A traditional herb known for its immune support properties and health benefits.",
+      "uses": [
+        "Fever reduction",
+        "Immune support"
+      ],
+      "category": "Immune Support",
+      "vitamins": [
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 54,
+        "carbs": 23.9
+      },
+      "ailments": [
+        "Cough",
+        "Respiratory issues",
+        "Inflammation",
+        "Insomnia"
+      ],
+      "locations": [
+        "Subtropics",
+        "Temperate regions",
+        "Caribbean"
+      ],
+      "preparation": "Infuse feverfew powder in warm water or milk",
+      "dosage": "2-3 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "EU",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Feverfew"
+    },
+    {
+      "id": "fennel_2131",
+      "english_name": "Fennel",
+      "local_names": {
+        "GH": "Hwentia",
+        "ZA": "Umvuthuza",
+        "IN": "Ginger"
+      },
+      "scientific_name": "Withania somnifera",
+      "description": "A traditional herb known for its first aid properties and health benefits.",
+      "uses": [
+        "Wellness",
+        "Detox"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "B12",
+        "B6"
+      ],
+      "nutrition": {
+        "calories": 97,
+        "carbs": 36.1
+      },
+      "ailments": [
+        "Cough",
+        "Skin issues",
+        "Inflammation",
+        "Anxiety"
+      ],
+      "locations": [
+        "Temperate regions",
+        "Africa",
+        "South America"
+      ],
+      "preparation": "Steep dried fennel in hot water for 10-15 minutes",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "SA",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fennel"
+    },
+    {
+      "id": "horse_chestnut_5016",
+      "english_name": "Horse Chestnut",
+      "local_names": {
+        "NG": "Ewe",
+        "GH": "Nkontomire",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Allium sativum",
+      "description": "Ancient remedy used for cold prevention, fever reduction and overall wellness.",
+      "uses": [
+        "Cold prevention",
+        "Fever reduction",
+        "Immune support"
+      ],
+      "category": "Immune Support",
+      "vitamins": [
+        "B3",
+        "E",
+        "D",
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 426,
+        "carbs": 9.5
+      },
+      "ailments": [
+        "Insomnia"
+      ],
+      "locations": [
+        "Asia",
+        "Temperate regions"
+      ],
+      "preparation": "Extract horse chestnut juice and dilute with water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AS",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Horse_Chestnut"
+    },
+    {
+      "id": "feverfew_6704",
+      "english_name": "Feverfew",
+      "local_names": {
+        "NG": "Okazi",
+        "TH": "Khing",
+        "PK": "Adrak"
+      },
+      "scientific_name": "Citrus hystrix",
+      "description": "Herbal remedy with elderly care benefits and therapeutic properties.",
+      "uses": [
+        "Wellness",
+        "Energy",
+        "Health tonic",
+        "Detox"
+      ],
+      "category": "Elderly Care",
+      "vitamins": [
+        "B12",
+        "C",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 261,
+        "carbs": 26.2
+      },
+      "ailments": [
+        "Anxiety",
+        "Nausea",
+        "Stress",
+        "Fatigue"
+      ],
+      "locations": [
+        "North America",
+        "Asia",
+        "Tropics"
+      ],
+      "preparation": "Crush feverfew and steep in hot water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Feverfew"
+    },
+    {
+      "id": "marigold_2342",
+      "english_name": "Marigold",
+      "local_names": {
+        "IN": "Amla",
+        "ZA": "Umfino",
+        "EG": "Karkadeh",
+        "NG": "Water Leaf"
+      },
+      "scientific_name": "Aesculus hippocastanum",
+      "description": "Traditional herb valued for its relaxation effects and healing properties.",
+      "uses": [
+        "Sleep aid",
+        "Stress relief",
+        "Calming",
+        "Anxiety reduction"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B6",
+        "A",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 146,
+        "carbs": 5.7
+      },
+      "ailments": [
+        "Fever",
+        "Inflammation"
+      ],
+      "locations": [
+        "Subtropics"
+      ],
+      "preparation": "Boil fresh marigold leaves in water for 5-10 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marigold"
+    },
+    {
+      "id": "marigold_1088",
+      "english_name": "Marigold",
+      "local_names": {
+        "GH": "Akokobesa",
+        "NG": "Okazi",
+        "ZA": "Umsobo"
+      },
+      "scientific_name": "Mentha piperita",
+      "description": "Ancient remedy used for calming, sleep aid and overall wellness.",
+      "uses": [
+        "Calming",
+        "Sleep aid"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B6",
+        "B5",
+        "B3",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 226,
+        "carbs": 32.6
+      },
+      "ailments": [
+        "Digestive issues",
+        "Skin issues"
+      ],
+      "locations": [
+        "Africa",
+        "Caribbean"
+      ],
+      "preparation": "Extract marigold juice and dilute with water",
+      "dosage": "1-2 grams daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "OC",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marigold"
+    },
+    {
+      "id": "cumin_5776",
+      "english_name": "Cumin",
+      "local_names": {
+        "IN": "Haldi",
+        "PK": "Ashwagandha",
+        "EG": "Karkadeh",
+        "BD": "Haldi"
+      },
+      "scientific_name": "Tagetes erecta",
+      "description": "A traditional herb known for its children's health properties and health benefits.",
+      "uses": [
+        "Detox",
+        "Vitality",
+        "Energy",
+        "Health tonic"
+      ],
+      "category": "Children's Health",
+      "vitamins": [
+        "B12",
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 174,
+        "carbs": 46.5
+      },
+      "ailments": [
+        "Cough",
+        "Joint pain",
+        "Inflammation",
+        "Pain"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "preparation": "Crush cumin and steep in hot water",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "NA",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cumin"
+    },
+    {
+      "id": "white_pepper_1030",
+      "english_name": "White Pepper",
+      "local_names": {
+        "IN": "Neem",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Pueraria lobata",
+      "description": "A traditional herb known for its immune support properties and health benefits.",
+      "uses": [
+        "Immune support",
+        "Antibacterial"
+      ],
+      "category": "Immune Support",
+      "vitamins": [
+        "B2",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 154,
+        "carbs": 39.8
+      },
+      "ailments": [
+        "Joint pain",
+        "Inflammation"
+      ],
+      "locations": [
+        "Mediterranean",
+        "North America"
+      ],
+      "preparation": "Steep dried white pepper in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AF",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/White_Pepper"
+    },
+    {
+      "id": "kudzu_1741",
+      "english_name": "Kudzu",
+      "local_names": {
+        "LK": "Kothamalli",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Piper nigrum",
+      "description": "Natural plant with digestive effects, commonly used in traditional medicine.",
+      "uses": [
+        "Bloating relief",
+        "Nausea relief"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B12",
+        "B9",
+        "K",
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 481,
+        "carbs": 17.7
+      },
+      "ailments": [
+        "Anxiety",
+        "Inflammation",
+        "Insomnia",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "North America",
+        "Caribbean"
+      ],
+      "preparation": "Crush kudzu and steep in hot water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kudzu"
+    },
+    {
+      "id": "hyssop_1240",
+      "english_name": "Hyssop",
+      "local_names": {
+        "GH": "Kokroko",
+        "ZA": "Umhlabangubo",
+        "EG": "Zobo",
+        "LK": "Kaha"
+      },
+      "scientific_name": "Echinacea purpurea",
+      "description": "Ancient remedy used for muscle recovery, swelling reduction and overall wellness.",
+      "uses": [
+        "Muscle recovery",
+        "Swelling reduction"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "B12",
+        "B3"
+      ],
+      "nutrition": {
+        "calories": 53,
+        "carbs": 14.7
+      },
+      "ailments": [
+        "Cough",
+        "Headache"
+      ],
+      "locations": [
+        "Asia",
+        "South America",
+        "North America"
+      ],
+      "preparation": "Boil fresh hyssop leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "SA",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Hyssop"
+    },
+    {
+      "id": "sesame_seeds_8405",
+      "english_name": "Sesame Seeds",
+      "local_names": {
+        "PK": "Neem",
+        "BD": "Haldi"
+      },
+      "scientific_name": "Matricaria chamomilla",
+      "description": "A traditional herb known for its immune support properties and health benefits.",
+      "uses": [
+        "Antiviral",
+        "Immune support",
+        "Antibacterial"
+      ],
+      "category": "Immune Support",
+      "vitamins": [
+        "A",
+        "B1",
+        "K",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 195,
+        "carbs": 33.7
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Stress",
+        "Insomnia"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Subtropics"
+      ],
+      "preparation": "Boil fresh sesame seeds leaves in water for 5-10 minutes",
+      "dosage": "500mg-1g daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "AS",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Sesame_Seeds"
+    },
+    {
+      "id": "ashwagandha_1548",
+      "english_name": "Ashwagandha",
+      "local_names": {
+        "TH": "Khamin",
+        "ZA": "Imifino"
+      },
+      "scientific_name": "Caulophyllum thalictroides",
+      "description": "Herbal remedy with skin health benefits and therapeutic properties.",
+      "uses": [
+        "Detox",
+        "Wellness",
+        "Vitality",
+        "Energy"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "K",
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 13,
+        "carbs": 2.4
+      },
+      "ailments": [
+        "Pain"
+      ],
+      "locations": [
+        "South America",
+        "Temperate regions"
+      ],
+      "preparation": "Extract ashwagandha juice and dilute with water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ashwagandha"
+    },
+    {
+      "id": "white_pepper_7460",
+      "english_name": "White Pepper",
+      "local_names": {
+        "PK": "Neem",
+        "TH": "Kha",
+        "IN": "Tulsi",
+        "KE": "Muthiga"
+      },
+      "scientific_name": "Stellaria media",
+      "description": "Natural plant with women's health effects, commonly used in traditional medicine.",
+      "uses": [
+        "Vitality",
+        "Wellness"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "D",
+        "B12",
+        "B7",
+        "E"
+      ],
+      "nutrition": {
+        "calories": 162,
+        "carbs": 27.9
+      },
+      "ailments": [
+        "Inflammation"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Caribbean"
+      ],
+      "preparation": "Steep dried white pepper in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "AF",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/White_Pepper"
+    },
+    {
+      "id": "celandine_1334",
+      "english_name": "Celandine",
+      "local_names": {
+        "GH": "Kankan",
+        "KE": "Mukinduri",
+        "NG": "Uziza"
+      },
+      "scientific_name": "Elymus repens",
+      "description": "Natural plant with skin health effects, commonly used in traditional medicine.",
+      "uses": [
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 456,
+        "carbs": 47.1
+      },
+      "ailments": [
+        "Skin issues",
+        "Fever",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "Asia",
+        "Tropics",
+        "South America"
+      ],
+      "preparation": "Infuse celandine powder in warm water or milk",
+      "dosage": "2-3 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "OC",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Celandine"
+    },
+    {
+      "id": "dandelion_3579",
+      "english_name": "Dandelion",
+      "local_names": {
+        "TH": "Krachai",
+        "IN": "Amla",
+        "BD": "Holud"
+      },
+      "scientific_name": "Linum usitatissimum",
+      "description": "A traditional herb known for its men's health properties and health benefits.",
+      "uses": [
+        "Wellness",
+        "Health tonic",
+        "Detox",
+        "Energy"
+      ],
+      "category": "Men's Health",
+      "vitamins": [
+        "B2",
+        "K",
+        "B3"
+      ],
+      "nutrition": {
+        "calories": 400,
+        "carbs": 43.8
+      },
+      "ailments": [
+        "Pain"
+      ],
+      "locations": [
+        "South America"
+      ],
+      "preparation": "Extract dandelion juice and dilute with water",
+      "dosage": "1-2 grams daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dandelion"
+    },
+    {
+      "id": "evening_primrose_6960",
+      "english_name": "Evening Primrose",
+      "local_names": {
+        "EG": "Karkade",
+        "IN": "Haldi"
+      },
+      "scientific_name": "Marrubium vulgare",
+      "description": "Herbal remedy with cardiovascular benefits and therapeutic properties.",
+      "uses": [
+        "Detox",
+        "Energy"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "B2",
+        "A",
+        "B3",
+        "B1"
+      ],
+      "nutrition": {
+        "calories": 428,
+        "carbs": 39.6
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Joint pain",
+        "Anxiety"
+      ],
+      "locations": [
+        "Mediterranean"
+      ],
+      "preparation": "Infuse evening primrose powder in warm water or milk",
+      "dosage": "2-3 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evening_Primrose"
+    },
+    {
+      "id": "nettle_8525",
+      "english_name": "Nettle",
+      "local_names": {
+        "TH": "Kha",
+        "LK": "Kothamalli",
+        "NG": "Ewe",
+        "PK": "Ashwagandha"
+      },
+      "scientific_name": "Taraxacum officinale",
+      "description": "A traditional herb known for its children's health properties and health benefits.",
+      "uses": [
+        "Detox",
+        "Energy",
+        "Health tonic",
+        "Wellness"
+      ],
+      "category": "Children's Health",
+      "vitamins": [
+        "B6",
+        "B12",
+        "C"
+      ],
+      "nutrition": {
+        "calories": 99,
+        "carbs": 8.6
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Skin issues"
+      ],
+      "locations": [
+        "Europe"
+      ],
+      "preparation": "Boil fresh nettle leaves in water for 5-10 minutes",
+      "dosage": "2-3 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "SA",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nettle"
+    },
+    {
+      "id": "cardamom_3593",
+      "english_name": "Cardamom",
+      "local_names": {
+        "LK": "Inguru",
+        "IN": "Amla",
+        "PK": "Tulsi"
+      },
+      "scientific_name": "Taraxacum officinale",
+      "description": "Herbal remedy with immune support benefits and therapeutic properties.",
+      "uses": [
+        "Fever reduction",
+        "Antiviral"
+      ],
+      "category": "Immune Support",
+      "vitamins": [
+        "B6",
+        "B3",
+        "C"
+      ],
+      "nutrition": {
+        "calories": 457,
+        "carbs": 39.1
+      },
+      "ailments": [
+        "Fatigue",
+        "Anxiety",
+        "Inflammation",
+        "Skin issues"
+      ],
+      "locations": [
+        "Mediterranean"
+      ],
+      "preparation": "Crush cardamom and steep in hot water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cardamom"
+    },
+    {
+      "id": "couch_grass_8291",
+      "english_name": "Couch Grass",
+      "local_names": {
+        "KE": "Mukombero",
+        "TH": "Khamin",
+        "PK": "Adrak",
+        "NG": "Efirin"
+      },
+      "scientific_name": "Verbascum thapsus",
+      "description": "A traditional herb known for its relaxation properties and health benefits.",
+      "uses": [
+        "Stress relief",
+        "Anxiety reduction",
+        "Nerve tonic"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "A"
+      ],
+      "nutrition": {
+        "calories": 112,
+        "carbs": 12.9
+      },
+      "ailments": [
+        "Fever",
+        "Digestive issues"
+      ],
+      "locations": [
+        "Asia",
+        "South America"
+      ],
+      "preparation": "Extract couch grass juice and dilute with water",
+      "dosage": "1-2 grams daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Couch_Grass"
+    },
+    {
+      "id": "devil's_claw_1531",
+      "english_name": "Devil's Claw",
+      "local_names": {
+        "NG": "Uziza",
+        "LK": "Kaha",
+        "BD": "Methi"
+      },
+      "scientific_name": "Panax ginseng",
+      "description": "Natural plant with skin health effects, commonly used in traditional medicine.",
+      "uses": [
+        "Energy",
+        "Health tonic",
+        "Wellness",
+        "Vitality"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "E"
+      ],
+      "nutrition": {
+        "calories": 311,
+        "carbs": 20.9
+      },
+      "ailments": [
+        "Skin issues"
+      ],
+      "locations": [
+        "Tropics"
+      ],
+      "preparation": "Steep dried devil's claw in hot water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Devil's_Claw"
+    },
+    {
+      "id": "black_cohosh_6213",
+      "english_name": "Black Cohosh",
+      "local_names": {
+        "NG": "Efirin",
+        "IN": "Amla"
+      },
+      "scientific_name": "Aloe barbadensis",
+      "description": "Ancient remedy used for detox, wellness and overall wellness.",
+      "uses": [
+        "Detox",
+        "Wellness"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "E",
+        "B12",
+        "K",
+        "B6"
+      ],
+      "nutrition": {
+        "calories": 497,
+        "carbs": 6.1
+      },
+      "ailments": [
+        "Digestive issues",
+        "Fatigue"
+      ],
+      "locations": [
+        "Africa",
+        "Mediterranean"
+      ],
+      "preparation": "Infuse black cohosh powder in warm water or milk",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Black_Cohosh"
+    },
+    {
+      "id": "evening_primrose_8328",
+      "english_name": "Evening Primrose",
+      "local_names": {
+        "EG": "Zobo",
+        "PK": "Haldi",
+        "GH": "Kakaduro"
+      },
+      "scientific_name": "Mentha piperita",
+      "description": "Herbal remedy with respiratory benefits and therapeutic properties.",
+      "uses": [
+        "Energy",
+        "Health tonic",
+        "Wellness",
+        "Detox"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B7",
+        "B6",
+        "C",
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 150,
+        "carbs": 21.1
+      },
+      "ailments": [
+        "Digestive issues",
+        "Fatigue"
+      ],
+      "locations": [
+        "Subtropics"
+      ],
+      "preparation": "Infuse evening primrose powder in warm water or milk",
+      "dosage": "2-3 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "NA",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Evening_Primrose"
+    },
+    {
+      "id": "angelica_7760",
+      "english_name": "Angelica",
+      "local_names": {
+        "PK": "Ashwagandha",
+        "GH": "Kakaduro",
+        "NG": "Ewe"
+      },
+      "scientific_name": "Glycyrrhiza glabra",
+      "description": "A traditional herb known for its nervous system properties and health benefits.",
+      "uses": [
+        "Health tonic",
+        "Vitality",
+        "Energy"
+      ],
+      "category": "Nervous System",
+      "vitamins": [
+        "B12",
+        "B2",
+        "B9",
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 471,
+        "carbs": 24.4
+      },
+      "ailments": [
+        "Muscle pain",
+        "Stress",
+        "Anxiety",
+        "Fever"
+      ],
+      "locations": [
+        "Subtropics"
+      ],
+      "preparation": "Steep dried angelica in hot water for 10-15 minutes",
+      "dosage": "500mg-1g daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "AF",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Angelica"
+    },
+    {
+      "id": "paprika_6942",
+      "english_name": "Paprika",
+      "local_names": {
+        "LK": "Kaha",
+        "TH": "Kha",
+        "IN": "Neem",
+        "NG": "Ewe"
+      },
+      "scientific_name": "Echinacea purpurea",
+      "description": "Herbal remedy with relaxation benefits and therapeutic properties.",
+      "uses": [
+        "Nerve tonic",
+        "Anxiety reduction",
+        "Calming",
+        "Sleep aid"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 460,
+        "carbs": 38.8
+      },
+      "ailments": [
+        "Anxiety",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "Caribbean",
+        "North America"
+      ],
+      "preparation": "Crush paprika and steep in hot water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paprika"
+    },
+    {
+      "id": "plantain_9759",
+      "english_name": "Plantain",
+      "local_names": {
+        "EG": "Karkadeh",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Silybum marianum",
+      "description": "Natural plant with respiratory effects, commonly used in traditional medicine.",
+      "uses": [
+        "Health tonic",
+        "Energy",
+        "Vitality",
+        "Detox"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B7",
+        "B6",
+        "K"
+      ],
+      "nutrition": {
+        "calories": 362,
+        "carbs": 22.8
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Headache"
+      ],
+      "locations": [
+        "Temperate regions",
+        "Asia"
+      ],
+      "preparation": "Crush plantain and steep in hot water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "EU",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Plantain"
+    },
+    {
+      "id": "elderberry_6260",
+      "english_name": "Elderberry",
+      "local_names": {
+        "NG": "Ugba",
+        "IN": "Ashwagandha"
+      },
+      "scientific_name": "Myristica fragrans",
+      "description": "Herbal remedy with women's health benefits and therapeutic properties.",
+      "uses": [
+        "Detox",
+        "Vitality"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "A",
+        "D",
+        "B9",
+        "B1"
+      ],
+      "nutrition": {
+        "calories": 24,
+        "carbs": 6.7
+      },
+      "ailments": [
+        "Inflammation",
+        "Headache"
+      ],
+      "locations": [
+        "South America"
+      ],
+      "preparation": "Extract elderberry juice and dilute with water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elderberry"
+    },
+    {
+      "id": "celandine_3163",
+      "english_name": "Celandine",
+      "local_names": {
+        "PK": "Neem",
+        "GH": "Kakaduro",
+        "KE": "Mukinduri",
+        "LK": "Kurundu"
+      },
+      "scientific_name": "Sesamum indicum",
+      "description": "Herbal remedy with first aid benefits and therapeutic properties.",
+      "uses": [
+        "Energy",
+        "Wellness",
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "B9",
+        "B1"
+      ],
+      "nutrition": {
+        "calories": 414,
+        "carbs": 39.2
+      },
+      "ailments": [
+        "Insomnia",
+        "Fever"
+      ],
+      "locations": [
+        "Europe",
+        "Mediterranean",
+        "Temperate regions"
+      ],
+      "preparation": "Extract celandine juice and dilute with water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "OC",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Celandine"
+    },
+    {
+      "id": "cleavers_3616",
+      "english_name": "Cleavers",
+      "local_names": {
+        "BD": "Dhania",
+        "PK": "Ashwagandha"
+      },
+      "scientific_name": "Trifolium pratense",
+      "description": "A traditional herb known for its relaxation properties and health benefits.",
+      "uses": [
+        "Nerve tonic",
+        "Stress relief",
+        "Anxiety reduction"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B9",
+        "E"
+      ],
+      "nutrition": {
+        "calories": 103,
+        "carbs": 19.2
+      },
+      "ailments": [
+        "Pain",
+        "Digestive issues",
+        "Cough",
+        "Muscle pain"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "preparation": "Crush cleavers and steep in hot water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cleavers"
+    },
+    {
+      "id": "coriander_4258",
+      "english_name": "Coriander",
+      "local_names": {
+        "BD": "Dhania",
+        "LK": "Maduru"
+      },
+      "scientific_name": "Schisandra chinensis",
+      "description": "Ancient remedy used for wellness, energy and overall wellness.",
+      "uses": [
+        "Wellness",
+        "Energy",
+        "Vitality"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "E",
+        "D",
+        "B6",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 168,
+        "carbs": 32.9
+      },
+      "ailments": [
+        "Inflammation",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "Temperate regions",
+        "Caribbean",
+        "Subtropics"
+      ],
+      "preparation": "Extract coriander juice and dilute with water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Coriander"
+    },
+    {
+      "id": "pumpkin_seeds_3331",
+      "english_name": "Pumpkin Seeds",
+      "local_names": {
+        "BD": "Ada",
+        "GH": "Mmakantadua"
+      },
+      "scientific_name": "Lepidium meyenii",
+      "description": "Herbal remedy with anti-inflammatory benefits and therapeutic properties.",
+      "uses": [
+        "Swelling reduction",
+        "Pain relief",
+        "Joint health"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "B6",
+        "B9",
+        "C",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 76,
+        "carbs": 38.4
+      },
+      "ailments": [
+        "Nausea",
+        "Joint pain",
+        "Stress"
+      ],
+      "locations": [
+        "South America",
+        "Asia"
+      ],
+      "preparation": "Steep dried pumpkin seeds in hot water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "AS",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pumpkin_Seeds"
+    },
+    {
+      "id": "cleavers_8632",
+      "english_name": "Cleavers",
+      "local_names": {
+        "EG": "Zobo",
+        "ZA": "Umvuthuza"
+      },
+      "scientific_name": "Valeriana officinalis",
+      "description": "Ancient remedy used for health tonic, vitality and overall wellness.",
+      "uses": [
+        "Health tonic",
+        "Vitality"
+      ],
+      "category": "Children's Health",
+      "vitamins": [
+        "E",
+        "B1",
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 449,
+        "carbs": 10.0
+      },
+      "ailments": [
+        "Headache",
+        "Inflammation"
+      ],
+      "locations": [
+        "Africa",
+        "Mediterranean"
+      ],
+      "preparation": "Crush cleavers and steep in hot water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "NA",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cleavers"
+    },
+    {
+      "id": "neem_6113",
+      "english_name": "Neem",
+      "local_names": {
+        "BD": "Ada",
+        "PK": "Amla",
+        "LK": "Inguru",
+        "NG": "Water Leaf"
+      },
+      "scientific_name": "Melissa officinalis",
+      "description": "A traditional herb known for its respiratory properties and health benefits.",
+      "uses": [
+        "Energy",
+        "Health tonic"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B12",
+        "C",
+        "D",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 29,
+        "carbs": 15.5
+      },
+      "ailments": [
+        "Muscle pain"
+      ],
+      "locations": [
+        "Europe",
+        "Temperate regions",
+        "South America"
+      ],
+      "preparation": "Steep dried neem in hot water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Neem"
+    },
+    {
+      "id": "yarrow_2851",
+      "english_name": "Yarrow",
+      "local_names": {
+        "LK": "Inguru",
+        "IN": "Tulsi",
+        "NG": "Efirin"
+      },
+      "scientific_name": "Crataegus monogyna",
+      "description": "Ancient remedy used for joint health, pain relief and overall wellness.",
+      "uses": [
+        "Joint health",
+        "Pain relief",
+        "Anti-inflammatory"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 367,
+        "carbs": 47.2
+      },
+      "ailments": [
+        "Insomnia",
+        "Muscle pain",
+        "Headache",
+        "Stress"
+      ],
+      "locations": [
+        "Africa",
+        "Asia",
+        "Temperate regions"
+      ],
+      "preparation": "Boil fresh yarrow leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "AS",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Yarrow"
+    },
+    {
+      "id": "black_cohosh_1722",
+      "english_name": "Black Cohosh",
+      "local_names": {
+        "GH": "Hwentia",
+        "PK": "Tulsi",
+        "LK": "Kothamalli",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Citrus hystrix",
+      "description": "Ancient remedy used for health tonic, vitality and overall wellness.",
+      "uses": [
+        "Health tonic",
+        "Vitality",
+        "Wellness",
+        "Energy"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B1",
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 36,
+        "carbs": 6.6
+      },
+      "ailments": [
+        "Insomnia"
+      ],
+      "locations": [
+        "Europe",
+        "Subtropics",
+        "Asia"
+      ],
+      "preparation": "Boil fresh black cohosh leaves in water for 5-10 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Black_Cohosh"
+    },
+    {
+      "id": "star_anise_7227",
+      "english_name": "Star Anise",
+      "local_names": {
+        "ZA": "Umhlabangubo",
+        "KE": "Muthiga",
+        "IN": "Ashwagandha"
+      },
+      "scientific_name": "Petasites hybridus",
+      "description": "Natural plant with women's health effects, commonly used in traditional medicine.",
+      "uses": [
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 432,
+        "carbs": 31.3
+      },
+      "ailments": [
+        "Anxiety",
+        "Joint pain",
+        "Muscle pain",
+        "Nausea"
+      ],
+      "locations": [
+        "Asia",
+        "Africa",
+        "Europe"
+      ],
+      "preparation": "Infuse star anise powder in warm water or milk",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Star_Anise"
+    },
+    {
+      "id": "oat_straw_3219",
+      "english_name": "Oat Straw",
+      "local_names": {
+        "EG": "Karkadeh",
+        "GH": "Akokobesa"
+      },
+      "scientific_name": "Passiflora incarnata",
+      "description": "A traditional herb known for its skin health properties and health benefits.",
+      "uses": [
+        "Health tonic",
+        "Detox"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "B2",
+        "B3",
+        "K"
+      ],
+      "nutrition": {
+        "calories": 72,
+        "carbs": 18.7
+      },
+      "ailments": [
+        "Pain"
+      ],
+      "locations": [
+        "Africa",
+        "Mediterranean"
+      ],
+      "preparation": "Extract oat straw juice and dilute with water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "SA",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Oat_Straw"
+    },
+    {
+      "id": "mustard_1132",
+      "english_name": "Mustard",
+      "local_names": {
+        "BD": "Methi",
+        "LK": "Kaha",
+        "EG": "Karkadeh",
+        "GH": "Mmakantadua"
+      },
+      "scientific_name": "Thymus vulgaris",
+      "description": "Natural plant with women's health effects, commonly used in traditional medicine.",
+      "uses": [
+        "Health tonic",
+        "Energy"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "B3",
+        "B12"
+      ],
+      "nutrition": {
+        "calories": 494,
+        "carbs": 36.6
+      },
+      "ailments": [
+        "Digestive issues",
+        "Anxiety",
+        "Pain",
+        "Stress"
+      ],
+      "locations": [
+        "North America"
+      ],
+      "preparation": "Crush mustard and steep in hot water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mustard"
+    },
+    {
+      "id": "aloe_vera_9261",
+      "english_name": "Aloe Vera",
+      "local_names": {
+        "GH": "Nkontomire",
+        "BD": "Holud"
+      },
+      "scientific_name": "Taraxacum officinale",
+      "description": "Traditional herb valued for its cardiovascular effects and healing properties.",
+      "uses": [
+        "Vitality",
+        "Detox",
+        "Energy",
+        "Health tonic"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "B5",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 358,
+        "carbs": 34.2
+      },
+      "ailments": [
+        "Nausea",
+        "Insomnia"
+      ],
+      "locations": [
+        "South America"
+      ],
+      "preparation": "Crush aloe vera and steep in hot water",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aloe_Vera"
+    },
+    {
+      "id": "aloe_vera_7525",
+      "english_name": "Aloe Vera",
+      "local_names": {
+        "IN": "Ashwagandha",
+        "ZA": "Umhlonyane",
+        "KE": "Muthiga"
+      },
+      "scientific_name": "Hydrastis canadensis",
+      "description": "Natural plant with energy effects, commonly used in traditional medicine.",
+      "uses": [
+        "Health tonic",
+        "Wellness",
+        "Vitality"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "B6"
+      ],
+      "nutrition": {
+        "calories": 257,
+        "carbs": 10.5
+      },
+      "ailments": [
+        "Insomnia",
+        "Nausea"
+      ],
+      "locations": [
+        "Asia"
+      ],
+      "preparation": "Infuse aloe vera powder in warm water or milk",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aloe_Vera"
+    },
+    {
+      "id": "kava_2783",
+      "english_name": "Kava",
+      "local_names": {
+        "ZA": "Umfino",
+        "EG": "Karkadeh",
+        "NG": "Uziza"
+      },
+      "scientific_name": "Tussilago farfara",
+      "description": "Traditional herb valued for its first aid effects and healing properties.",
+      "uses": [
+        "Detox",
+        "Wellness",
+        "Health tonic"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "C",
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 106,
+        "carbs": 31.7
+      },
+      "ailments": [
+        "Muscle pain",
+        "Pain",
+        "Fever",
+        "Fatigue"
+      ],
+      "locations": [
+        "Tropics",
+        "Europe",
+        "South America"
+      ],
+      "preparation": "Crush kava and steep in hot water",
+      "dosage": "1-2 grams daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kava"
+    },
+    {
+      "id": "wild_yam_2587",
+      "english_name": "Wild Yam",
+      "local_names": {
+        "LK": "Kothamalli",
+        "EG": "Zobo",
+        "BD": "Dhania",
+        "PK": "Adrak"
+      },
+      "scientific_name": "Galium aparine",
+      "description": "Ancient remedy used for vitality, detox and overall wellness.",
+      "uses": [
+        "Vitality",
+        "Detox",
+        "Wellness",
+        "Health tonic"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 465,
+        "carbs": 44.5
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Fatigue"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Tropics"
+      ],
+      "preparation": "Steep dried wild yam in hot water for 10-15 minutes",
+      "dosage": "500mg-1g daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Wild_Yam"
+    },
+    {
+      "id": "basil_4290",
+      "english_name": "Basil",
+      "local_names": {
+        "BD": "Jeera",
+        "LK": "Kurundu",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Thymus vulgaris",
+      "description": "A traditional herb known for its skin health properties and health benefits.",
+      "uses": [
+        "Detox",
+        "Vitality",
+        "Health tonic",
+        "Wellness"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "B12",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 257,
+        "carbs": 11.6
+      },
+      "ailments": [
+        "Muscle pain",
+        "Stress",
+        "Insomnia"
+      ],
+      "locations": [
+        "North America",
+        "Caribbean"
+      ],
+      "preparation": "Crush basil and steep in hot water",
+      "dosage": "1-2 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AF",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Basil"
+    },
+    {
+      "id": "bay_leaves_1800",
+      "english_name": "Bay Leaves",
+      "local_names": {
+        "NG": "Uziza",
+        "EG": "Karkadeh",
+        "KE": "Muthaiga",
+        "TH": "Khing"
+      },
+      "scientific_name": "Dioscorea villosa",
+      "description": "Traditional herb valued for its digestive effects and healing properties.",
+      "uses": [
+        "Appetite stimulation",
+        "Nausea relief",
+        "Bloating relief",
+        "Gut health"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B7",
+        "B6",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 347,
+        "carbs": 19.2
+      },
+      "ailments": [
+        "Digestive issues",
+        "Muscle pain",
+        "Pain"
+      ],
+      "locations": [
+        "Caribbean",
+        "Asia",
+        "Africa"
+      ],
+      "preparation": "Steep dried bay leaves in hot water for 10-15 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Bay_Leaves"
+    },
+    {
+      "id": "chamomile_7033",
+      "english_name": "Chamomile",
+      "local_names": {
+        "KE": "Muthaiga",
+        "GH": "Bokoboko",
+        "LK": "Kaha"
+      },
+      "scientific_name": "Allium sativum",
+      "description": "Traditional herb valued for its first aid effects and healing properties.",
+      "uses": [
+        "Health tonic",
+        "Energy"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "B9",
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 173,
+        "carbs": 45.5
+      },
+      "ailments": [
+        "Respiratory issues"
+      ],
+      "locations": [
+        "Tropics",
+        "Europe",
+        "Caribbean"
+      ],
+      "preparation": "Steep dried chamomile in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chamomile"
+    },
+    {
+      "id": "chamomile_6258",
+      "english_name": "Chamomile",
+      "local_names": {
+        "BD": "Ada",
+        "KE": "Mukinduri",
+        "ZA": "Umhlabangubo",
+        "LK": "Kaha"
+      },
+      "scientific_name": "Salvia hispanica",
+      "description": "Natural plant with anti-inflammatory effects, commonly used in traditional medicine.",
+      "uses": [
+        "Joint health",
+        "Swelling reduction",
+        "Anti-inflammatory"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "B2",
+        "B6",
+        "B9",
+        "K"
+      ],
+      "nutrition": {
+        "calories": 476,
+        "carbs": 30.3
+      },
+      "ailments": [
+        "Muscle pain",
+        "Skin issues",
+        "Joint pain",
+        "Insomnia"
+      ],
+      "locations": [
+        "South America",
+        "North America",
+        "Mediterranean"
+      ],
+      "preparation": "Infuse chamomile powder in warm water or milk",
+      "dosage": "2-3 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chamomile"
+    },
+    {
+      "id": "mugwort_1674",
+      "english_name": "Mugwort",
+      "local_names": {
+        "KE": "Muthaiga",
+        "BD": "Dhania",
+        "NG": "Scent Leaf"
+      },
+      "scientific_name": "Artemisia vulgaris",
+      "description": "Traditional herb valued for its elderly care effects and healing properties.",
+      "uses": [
+        "Energy",
+        "Detox"
+      ],
+      "category": "Elderly Care",
+      "vitamins": [
+        "B2",
+        "B1"
+      ],
+      "nutrition": {
+        "calories": 238,
+        "carbs": 48.4
+      },
+      "ailments": [
+        "Joint pain",
+        "Anxiety"
+      ],
+      "locations": [
+        "Asia"
+      ],
+      "preparation": "Infuse mugwort powder in warm water or milk",
+      "dosage": "1-2 grams daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Mugwort"
+    },
+    {
+      "id": "coriander_3899",
+      "english_name": "Coriander",
+      "local_names": {
+        "ZA": "Umvuthuza",
+        "GH": "Mmakantadua",
+        "BD": "Methi"
+      },
+      "scientific_name": "Salvia officinalis",
+      "description": "Natural plant with energy effects, commonly used in traditional medicine.",
+      "uses": [
+        "Health tonic",
+        "Energy",
+        "Wellness",
+        "Vitality"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "C",
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 390,
+        "carbs": 10.4
+      },
+      "ailments": [
+        "Skin issues",
+        "Insomnia"
+      ],
+      "locations": [
+        "Europe",
+        "Caribbean"
+      ],
+      "preparation": "Extract coriander juice and dilute with water",
+      "dosage": "2-3 cups daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Coriander"
+    },
+    {
+      "id": "oregano_2162",
+      "english_name": "Oregano",
+      "local_names": {
+        "GH": "Prekese",
+        "KE": "Muthiga"
+      },
+      "scientific_name": "Scutellaria lateriflora",
+      "description": "A traditional herb known for its elderly care properties and health benefits.",
+      "uses": [
+        "Health tonic",
+        "Wellness",
+        "Detox"
+      ],
+      "category": "Elderly Care",
+      "vitamins": [
+        "B12",
+        "B9",
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 88,
+        "carbs": 36.7
+      },
+      "ailments": [
+        "Fatigue",
+        "Muscle pain"
+      ],
+      "locations": [
+        "South America"
+      ],
+      "preparation": "Boil fresh oregano leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Oregano"
+    },
+    {
+      "id": "dandelion_3705",
+      "english_name": "Dandelion",
+      "local_names": {
+        "IN": "Haldi",
+        "EG": "Karkade",
+        "BD": "Dhania"
+      },
+      "scientific_name": "Allium sativum",
+      "description": "Herbal remedy with skin health benefits and therapeutic properties.",
+      "uses": [
+        "Wellness",
+        "Detox"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 367,
+        "carbs": 25.2
+      },
+      "ailments": [
+        "Cough",
+        "Digestive issues"
+      ],
+      "locations": [
+        "Subtropics",
+        "Europe",
+        "Temperate regions"
+      ],
+      "preparation": "Steep dried dandelion in hot water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Dandelion"
+    },
+    {
+      "id": "cleavers_8354",
+      "english_name": "Cleavers",
+      "local_names": {
+        "BD": "Jeera",
+        "KE": "Mukombero",
+        "PK": "Amla"
+      },
+      "scientific_name": "Capsicum annuum",
+      "description": "A traditional herb known for its first aid properties and health benefits.",
+      "uses": [
+        "Vitality",
+        "Energy",
+        "Health tonic"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "C",
+        "B1",
+        "K"
+      ],
+      "nutrition": {
+        "calories": 351,
+        "carbs": 36.7
+      },
+      "ailments": [
+        "Stress",
+        "Digestive issues",
+        "Joint pain"
+      ],
+      "locations": [
+        "North America",
+        "Tropics"
+      ],
+      "preparation": "Boil fresh cleavers leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "SA",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cleavers"
+    },
+    {
+      "id": "paprika_4620",
+      "english_name": "Paprika",
+      "local_names": {
+        "KE": "Muthaiga",
+        "BD": "Jeera"
+      },
+      "scientific_name": "Hydrastis canadensis",
+      "description": "Traditional herb valued for its respiratory effects and healing properties.",
+      "uses": [
+        "Health tonic",
+        "Wellness",
+        "Energy",
+        "Detox"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B6",
+        "B3",
+        "B12",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 341,
+        "carbs": 23.8
+      },
+      "ailments": [
+        "Fever",
+        "Inflammation",
+        "Joint pain",
+        "Insomnia"
+      ],
+      "locations": [
+        "Asia"
+      ],
+      "preparation": "Infuse paprika powder in warm water or milk",
+      "dosage": "500mg-1g daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Paprika"
+    },
+    {
+      "id": "horehound_7935",
+      "english_name": "Horehound",
+      "local_names": {
+        "KE": "Mukinduri",
+        "ZA": "Umhlabangubo",
+        "NG": "Bitter Leaf"
+      },
+      "scientific_name": "Atropa belladonna",
+      "description": "Ancient remedy used for wellness, vitality and overall wellness.",
+      "uses": [
+        "Wellness",
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Children's Health",
+      "vitamins": [
+        "B5",
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 387,
+        "carbs": 17.0
+      },
+      "ailments": [
+        "Fatigue",
+        "Inflammation",
+        "Muscle pain"
+      ],
+      "locations": [
+        "South America"
+      ],
+      "preparation": "Steep dried horehound in hot water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AF",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Horehound"
+    },
+    {
+      "id": "milk_thistle_7529",
+      "english_name": "Milk Thistle",
+      "local_names": {
+        "KE": "Mukombero",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Piper nigrum",
+      "description": "Traditional herb valued for its anti-inflammatory effects and healing properties.",
+      "uses": [
+        "Muscle recovery",
+        "Joint health"
+      ],
+      "category": "Anti-inflammatory",
+      "vitamins": [
+        "B2",
+        "B5",
+        "B1",
+        "B3"
+      ],
+      "nutrition": {
+        "calories": 111,
+        "carbs": 11.8
+      },
+      "ailments": [
+        "Headache"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "preparation": "Infuse milk thistle powder in warm water or milk",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "OC",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Milk_Thistle"
+    },
+    {
+      "id": "elderberry_1044",
+      "english_name": "Elderberry",
+      "local_names": {
+        "BD": "Dhania",
+        "ZA": "Umsobo",
+        "NG": "Efirin"
+      },
+      "scientific_name": "Elettaria cardamomum",
+      "description": "A traditional herb known for its elderly care properties and health benefits.",
+      "uses": [
+        "Vitality",
+        "Energy",
+        "Detox",
+        "Health tonic"
+      ],
+      "category": "Elderly Care",
+      "vitamins": [
+        "B12",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 54,
+        "carbs": 1.3
+      },
+      "ailments": [
+        "Insomnia",
+        "Anxiety"
+      ],
+      "locations": [
+        "Mediterranean"
+      ],
+      "preparation": "Boil fresh elderberry leaves in water for 5-10 minutes",
+      "dosage": "2-3 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Common sweetener to improve taste",
+      "continents": [
+        "AS",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elderberry"
+    },
+    {
+      "id": "elderberry_3107",
+      "english_name": "Elderberry",
+      "local_names": {
+        "TH": "Krachai",
+        "BD": "Dhania",
+        "EG": "Zobo",
+        "KE": "Muthaiga"
+      },
+      "scientific_name": "Vitex agnus-castus",
+      "description": "Herbal remedy with digestive benefits and therapeutic properties.",
+      "uses": [
+        "Digestive health",
+        "Gut health",
+        "Bloating relief",
+        "Appetite stimulation"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B1",
+        "B12",
+        "D",
+        "B2"
+      ],
+      "nutrition": {
+        "calories": 270,
+        "carbs": 40.4
+      },
+      "ailments": [
+        "Anxiety"
+      ],
+      "locations": [
+        "North America",
+        "Mediterranean"
+      ],
+      "preparation": "Extract elderberry juice and dilute with water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elderberry"
+    },
+    {
+      "id": "red_raspberry_3240",
+      "english_name": "Red Raspberry",
+      "local_names": {
+        "NG": "Bitter Leaf",
+        "PK": "Ashwagandha",
+        "GH": "Hwentia",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Petasites hybridus",
+      "description": "Ancient remedy used for detox, energy and overall wellness.",
+      "uses": [
+        "Detox",
+        "Energy",
+        "Vitality"
+      ],
+      "category": "Detox",
+      "vitamins": [
+        "B9",
+        "E"
+      ],
+      "nutrition": {
+        "calories": 108,
+        "carbs": 32.9
+      },
+      "ailments": [
+        "Digestive issues",
+        "Muscle pain",
+        "Fatigue"
+      ],
+      "locations": [
+        "Subtropics"
+      ],
+      "preparation": "Boil fresh red raspberry leaves in water for 5-10 minutes",
+      "dosage": "2-3 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Raspberry"
+    },
+    {
+      "id": "echinacea_6206",
+      "english_name": "Echinacea",
+      "local_names": {
+        "LK": "Inguru",
+        "GH": "Bokoboko"
+      },
+      "scientific_name": "Dioscorea villosa",
+      "description": "Traditional herb valued for its women's health effects and healing properties.",
+      "uses": [
+        "Health tonic",
+        "Energy",
+        "Vitality"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "E",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 307,
+        "carbs": 4.5
+      },
+      "ailments": [
+        "Inflammation"
+      ],
+      "locations": [
+        "Africa",
+        "Tropics"
+      ],
+      "preparation": "Boil fresh echinacea leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Echinacea"
+    },
+    {
+      "id": "oat_straw_6601",
+      "english_name": "Oat Straw",
+      "local_names": {
+        "NG": "Bitter Leaf",
+        "GH": "Mmakantadua",
+        "KE": "Mukombero"
+      },
+      "scientific_name": "Salvia hispanica",
+      "description": "A traditional herb known for its digestive properties and health benefits.",
+      "uses": [
+        "Appetite stimulation",
+        "Digestive health",
+        "Gut health"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B3"
+      ],
+      "nutrition": {
+        "calories": 50,
+        "carbs": 43.4
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Headache"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "preparation": "Infuse oat straw powder in warm water or milk",
+      "dosage": "1-2 grams daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "NA",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Oat_Straw"
+    },
+    {
+      "id": "thyme_9409",
+      "english_name": "Thyme",
+      "local_names": {
+        "ZA": "Umhlonyane",
+        "IN": "Ginger",
+        "KE": "Muthiga",
+        "LK": "Kothamalli"
+      },
+      "scientific_name": "Mentha spicata",
+      "description": "Herbal remedy with respiratory benefits and therapeutic properties.",
+      "uses": [
+        "Wellness",
+        "Health tonic",
+        "Detox"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B12",
+        "B5",
+        "D",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 186,
+        "carbs": 12.1
+      },
+      "ailments": [
+        "Digestive issues"
+      ],
+      "locations": [
+        "Africa",
+        "Caribbean"
+      ],
+      "preparation": "Crush thyme and steep in hot water",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AS",
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Thyme"
+    },
+    {
+      "id": "kudzu_9957",
+      "english_name": "Kudzu",
+      "local_names": {
+        "TH": "Krachai",
+        "IN": "Haldi",
+        "LK": "Kothamalli"
+      },
+      "scientific_name": "Rubus idaeus",
+      "description": "A traditional herb known for its first aid properties and health benefits.",
+      "uses": [
+        "Detox",
+        "Energy",
+        "Wellness"
+      ],
+      "category": "First Aid",
+      "vitamins": [
+        "K",
+        "B5",
+        "D",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 265,
+        "carbs": 31.7
+      },
+      "ailments": [
+        "Fatigue",
+        "Anxiety"
+      ],
+      "locations": [
+        "Tropics",
+        "South America"
+      ],
+      "preparation": "Boil fresh kudzu leaves in water for 5-10 minutes",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "AF",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kudzu"
+    },
+    {
+      "id": "rosemary_8562",
+      "english_name": "Rosemary",
+      "local_names": {
+        "PK": "Tulsi",
+        "GH": "Hwentia",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Ocimum basilicum",
+      "description": "Herbal remedy with cardiovascular benefits and therapeutic properties.",
+      "uses": [
+        "Energy",
+        "Wellness"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "B2",
+        "B6",
+        "C"
+      ],
+      "nutrition": {
+        "calories": 319,
+        "carbs": 36.9
+      },
+      "ailments": [
+        "Stress",
+        "Insomnia",
+        "Nausea"
+      ],
+      "locations": [
+        "North America",
+        "Asia"
+      ],
+      "preparation": "Extract rosemary juice and dilute with water",
+      "dosage": "500mg-1g daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "OC"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Rosemary"
+    },
+    {
+      "id": "cinnamon_3220",
+      "english_name": "Cinnamon",
+      "local_names": {
+        "IN": "Haldi",
+        "BD": "Dhania",
+        "KE": "Mukombero",
+        "TH": "Khing"
+      },
+      "scientific_name": "Silybum marianum",
+      "description": "A traditional herb known for its relaxation properties and health benefits.",
+      "uses": [
+        "Nerve tonic",
+        "Sleep aid",
+        "Calming"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B5"
+      ],
+      "nutrition": {
+        "calories": 454,
+        "carbs": 3.1
+      },
+      "ailments": [
+        "Fatigue",
+        "Headache",
+        "Nausea",
+        "Anxiety"
+      ],
+      "locations": [
+        "Caribbean"
+      ],
+      "preparation": "Steep dried cinnamon in hot water for 10-15 minutes",
+      "dosage": "500mg-1g daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "NA",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Cinnamon"
+    },
+    {
+      "id": "devil's_claw_9654",
+      "english_name": "Devil's Claw",
+      "local_names": {
+        "EG": "Karkadeh",
+        "BD": "Ada",
+        "KE": "Muthiga",
+        "LK": "Maduru"
+      },
+      "scientific_name": "Melissa officinalis",
+      "description": "A traditional herb known for its detox properties and health benefits.",
+      "uses": [
+        "Wellness",
+        "Health tonic",
+        "Energy",
+        "Detox"
+      ],
+      "category": "Detox",
+      "vitamins": [
+        "B6",
+        "D"
+      ],
+      "nutrition": {
+        "calories": 117,
+        "carbs": 8.1
+      },
+      "ailments": [
+        "Inflammation",
+        "Skin issues",
+        "Nausea"
+      ],
+      "locations": [
+        "Subtropics",
+        "Africa"
+      ],
+      "preparation": "Infuse devil's claw powder in warm water or milk",
+      "dosage": "500mg-1g daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Devil's_Claw"
+    },
+    {
+      "id": "fennel_4306",
+      "english_name": "Fennel",
+      "local_names": {
+        "BD": "Holud",
+        "GH": "Kankan",
+        "NG": "Ogbono"
+      },
+      "scientific_name": "Lavandula angustifolia",
+      "description": "Traditional herb valued for its cardiovascular effects and healing properties.",
+      "uses": [
+        "Detox",
+        "Health tonic"
+      ],
+      "category": "Cardiovascular",
+      "vitamins": [
+        "C",
+        "B5",
+        "A",
+        "B7"
+      ],
+      "nutrition": {
+        "calories": 81,
+        "carbs": 17.4
+      },
+      "ailments": [
+        "Respiratory issues",
+        "Anxiety",
+        "Insomnia"
+      ],
+      "locations": [
+        "Europe",
+        "Tropics",
+        "North America"
+      ],
+      "preparation": "Extract fennel juice and dilute with water",
+      "dosage": "2-3 cups daily",
+      "precautions": "Consult healthcare provider before use",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "AS",
+        "AF"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Fennel"
+    },
+    {
+      "id": "chia_seeds_5674",
+      "english_name": "Chia Seeds",
+      "local_names": {
+        "KE": "Muthaiga",
+        "BD": "Ada",
+        "LK": "Maduru"
+      },
+      "scientific_name": "Oenothera biennis",
+      "description": "Ancient remedy used for calming, nerve tonic and overall wellness.",
+      "uses": [
+        "Calming",
+        "Nerve tonic"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B6",
+        "B1",
+        "B7",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 130,
+        "carbs": 28.4
+      },
+      "ailments": [
+        "Fever",
+        "Fatigue",
+        "Joint pain"
+      ],
+      "locations": [
+        "Tropics",
+        "South America",
+        "North America"
+      ],
+      "preparation": "Steep dried chia seeds in hot water for 10-15 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AF",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Chia_Seeds"
+    },
+    {
+      "id": "oat_straw_8403",
+      "english_name": "Oat Straw",
+      "local_names": {
+        "PK": "Neem",
+        "GH": "Nkontomire",
+        "ZA": "Umhlabangubo"
+      },
+      "scientific_name": "Ginkgo biloba",
+      "description": "Traditional herb valued for its relaxation effects and healing properties.",
+      "uses": [
+        "Stress relief",
+        "Anxiety reduction",
+        "Calming"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "B9",
+        "B2",
+        "B7",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 23,
+        "carbs": 31.1
+      },
+      "ailments": [
+        "Inflammation",
+        "Insomnia",
+        "Headache",
+        "Joint pain"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Tropics"
+      ],
+      "preparation": "Extract oat straw juice and dilute with water",
+      "dosage": "1-2 grams daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "AF",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Oat_Straw"
+    },
+    {
+      "id": "garlic_1295",
+      "english_name": "Garlic",
+      "local_names": {
+        "EG": "Karkadeh",
+        "PK": "Tulsi",
+        "IN": "Haldi"
+      },
+      "scientific_name": "Calendula officinalis",
+      "description": "Traditional herb valued for its women's health effects and healing properties.",
+      "uses": [
+        "Vitality",
+        "Health tonic",
+        "Wellness"
+      ],
+      "category": "Women's Health",
+      "vitamins": [
+        "E",
+        "B3"
+      ],
+      "nutrition": {
+        "calories": 434,
+        "carbs": 16.0
+      },
+      "ailments": [
+        "Joint pain",
+        "Fever",
+        "Anxiety",
+        "Headache"
+      ],
+      "locations": [
+        "North America"
+      ],
+      "preparation": "Steep dried garlic in hot water for 10-15 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Combines well with honey for enhanced benefits",
+      "continents": [
+        "SA",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Garlic"
+    },
+    {
+      "id": "blue_cohosh_7685",
+      "english_name": "Blue Cohosh",
+      "local_names": {
+        "KE": "Muthiga",
+        "BD": "Methi",
+        "EG": "Karkadeh",
+        "PK": "Haldi"
+      },
+      "scientific_name": "Stellaria media",
+      "description": "Natural plant with respiratory effects, commonly used in traditional medicine.",
+      "uses": [
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Respiratory",
+      "vitamins": [
+        "B6",
+        "B3",
+        "D",
+        "E"
+      ],
+      "nutrition": {
+        "calories": 153,
+        "carbs": 44.7
+      },
+      "ailments": [
+        "Fatigue",
+        "Anxiety",
+        "Headache"
+      ],
+      "locations": [
+        "Europe",
+        "Tropics"
+      ],
+      "preparation": "Infuse blue cohosh powder in warm water or milk",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "AS"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Blue_Cohosh"
+    },
+    {
+      "id": "celandine_5920",
+      "english_name": "Celandine",
+      "local_names": {
+        "NG": "Ntong",
+        "BD": "Ada",
+        "PK": "Amla",
+        "TH": "Krachai"
+      },
+      "scientific_name": "Caulophyllum thalictroides",
+      "description": "Ancient remedy used for energy, detox and overall wellness.",
+      "uses": [
+        "Energy",
+        "Detox",
+        "Vitality",
+        "Wellness"
+      ],
+      "category": "Children's Health",
+      "vitamins": [
+        "E",
+        "D",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 79,
+        "carbs": 22.0
+      },
+      "ailments": [
+        "Inflammation",
+        "Stress",
+        "Pain",
+        "Digestive issues"
+      ],
+      "locations": [
+        "North America"
+      ],
+      "preparation": "Boil fresh celandine leaves in water for 5-10 minutes",
+      "dosage": "2-3 cups daily",
+      "precautions": "Not recommended for children under 12",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "SA",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Celandine"
+    },
+    {
+      "id": "nettle_3923",
+      "english_name": "Nettle",
+      "local_names": {
+        "TH": "Khing",
+        "IN": "Tulsi",
+        "ZA": "Imifino"
+      },
+      "scientific_name": "Syzygium aromaticum",
+      "description": "Ancient remedy used for wellness, energy and overall wellness.",
+      "uses": [
+        "Wellness",
+        "Energy"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "A"
+      ],
+      "nutrition": {
+        "calories": 495,
+        "carbs": 45.6
+      },
+      "ailments": [
+        "Headache",
+        "Respiratory issues",
+        "Skin issues",
+        "Digestive issues"
+      ],
+      "locations": [
+        "Caribbean",
+        "North America"
+      ],
+      "preparation": "Boil fresh nettle leaves in water for 5-10 minutes",
+      "dosage": "1-2 cups daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Honey can be added for sweetness and antimicrobial properties",
+      "continents": [
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Nettle"
+    },
+    {
+      "id": "marigold_1891",
+      "english_name": "Marigold",
+      "local_names": {
+        "NG": "Efirin",
+        "IN": "Neem",
+        "BD": "Ada",
+        "PK": "Neem"
+      },
+      "scientific_name": "Macrocystis pyrifera",
+      "description": "Traditional herb valued for its energy effects and healing properties.",
+      "uses": [
+        "Vitality",
+        "Wellness"
+      ],
+      "category": "Energy",
+      "vitamins": [
+        "E"
+      ],
+      "nutrition": {
+        "calories": 486,
+        "carbs": 49.4
+      },
+      "ailments": [
+        "Joint pain",
+        "Skin issues"
+      ],
+      "locations": [
+        "Africa",
+        "Temperate regions"
+      ],
+      "preparation": "Steep dried marigold in hot water for 10-15 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Avoid during pregnancy and breastfeeding",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "EU",
+        "SA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Marigold"
+    },
+    {
+      "id": "kava_3724",
+      "english_name": "Kava",
+      "local_names": {
+        "BD": "Ada",
+        "GH": "Bokoboko",
+        "IN": "Ashwagandha"
+      },
+      "scientific_name": "Plantago major",
+      "description": "A traditional herb known for its relaxation properties and health benefits.",
+      "uses": [
+        "Anxiety reduction",
+        "Stress relief",
+        "Calming",
+        "Nerve tonic"
+      ],
+      "category": "Relaxation",
+      "vitamins": [
+        "E",
+        "B6",
+        "B9"
+      ],
+      "nutrition": {
+        "calories": 35,
+        "carbs": 25.7
+      },
+      "ailments": [
+        "Insomnia",
+        "Respiratory issues"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Caribbean",
+        "Temperate regions"
+      ],
+      "preparation": "Boil fresh kava leaves in water for 5-10 minutes",
+      "dosage": "1-2 grams daily",
+      "precautions": "Use in moderation, avoid excessive consumption",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Kava"
+    },
+    {
+      "id": "ashwagandha_9282",
+      "english_name": "Ashwagandha",
+      "local_names": {
+        "KE": "Mukinduri",
+        "IN": "Tulsi"
+      },
+      "scientific_name": "Melissa officinalis",
+      "description": "Ancient remedy used for nausea relief, digestive health and overall wellness.",
+      "uses": [
+        "Nausea relief",
+        "Digestive health",
+        "Appetite stimulation"
+      ],
+      "category": "Digestive",
+      "vitamins": [
+        "B9",
+        "C"
+      ],
+      "nutrition": {
+        "calories": 352,
+        "carbs": 47.7
+      },
+      "ailments": [
+        "Nausea",
+        "Fatigue"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Asia",
+        "Caribbean"
+      ],
+      "preparation": "Crush ashwagandha and steep in hot water",
+      "dosage": "1-2 cups daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Honey helps mask bitter taste and adds therapeutic value",
+      "continents": [
+        "OC",
+        "NA"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Ashwagandha"
+    },
+    {
+      "id": "aloe_vera_6121",
+      "english_name": "Aloe Vera",
+      "local_names": {
+        "ZA": "Umsobo",
+        "KE": "Mukinduri"
+      },
+      "scientific_name": "Rosmarinus officinalis",
+      "description": "Herbal remedy with skin health benefits and therapeutic properties.",
+      "uses": [
+        "Detox",
+        "Energy",
+        "Vitality",
+        "Health tonic"
+      ],
+      "category": "Skin Health",
+      "vitamins": [
+        "E",
+        "B7",
+        "B2",
+        "A"
+      ],
+      "nutrition": {
+        "calories": 413,
+        "carbs": 0.9
+      },
+      "ailments": [
+        "Muscle pain",
+        "Headache",
+        "Pain"
+      ],
+      "locations": [
+        "Mediterranean",
+        "Africa"
+      ],
+      "preparation": "Boil fresh aloe vera leaves in water for 5-10 minutes",
+      "dosage": "1-3 teaspoons daily",
+      "precautions": "May interact with certain medications",
+      "honey_usage": "Traditional combination with honey for soothing effects",
+      "continents": [
+        "AS",
+        "EU"
+      ],
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Aloe_Vera"
+    }
+  ]
+}
