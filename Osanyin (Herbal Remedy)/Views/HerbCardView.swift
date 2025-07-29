@@ -5,7 +5,22 @@ struct HerbCardView: View {
     let isFavorite: Bool
     let onFavoriteToggle: () -> Void
     
+    @StateObject private var healthProfile = HealthProfileManager.shared
+    @StateObject private var localizationService = LocalizationService.shared
     @State private var showingDetail = false
+    
+    // MARK: - Computed Properties
+    private var localizedName: String {
+        return localizationService.getLocalizedName(
+            for: herb,
+            userLocation: healthProfile.location,
+            userLanguages: healthProfile.additionalLanguages
+        )
+    }
+    
+    private var hasLocalizedName: Bool {
+        return localizedName != herb.englishName
+    }
     
     var body: some View {
         Button(action: {
@@ -15,6 +30,7 @@ struct HerbCardView: View {
                 // Header with name and favorite button
                 HStack {
                     VStack(alignment: .leading, spacing: 4) {
+                        // Always show English name as main title
                         Text(herb.englishName)
                             .font(.headline)
                             .foregroundColor(.primary)
@@ -24,6 +40,14 @@ struct HerbCardView: View {
                             .font(.caption)
                             .foregroundColor(.secondary)
                             .italic()
+                        
+                        // Show localized name under scientific name if different from English
+                        if hasLocalizedName {
+                            Text(localizedName)
+                                .font(.caption)
+                                .foregroundColor(.blue)
+                                .lineLimit(1)
+                        }
                     }
                     
                     Spacer()

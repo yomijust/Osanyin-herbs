@@ -234,6 +234,7 @@ struct ModernHerbCard: View {
     let herb: Herb
     @ObservedObject var coreDataManager: CoreDataManager
     @ObservedObject var healthProfile: HealthProfileManager
+    @StateObject private var localizationService = LocalizationService.shared
     let onFavoriteToggle: () -> Void
     
     @State private var showingDetail = false
@@ -244,6 +245,19 @@ struct ModernHerbCard: View {
     
     private var hasSafetyWarnings: Bool {
         !healthProfile.checkHerbSafety(for: herb).isEmpty
+    }
+    
+    // MARK: - Localization Properties
+    private var localizedName: String {
+        return localizationService.getLocalizedName(
+            for: herb,
+            userLocation: healthProfile.location,
+            userLanguages: healthProfile.additionalLanguages
+        )
+    }
+    
+    private var hasLocalizedName: Bool {
+        return localizedName != herb.englishName
     }
     
     var body: some View {
@@ -265,6 +279,7 @@ struct ModernHerbCard: View {
                     }
                     
                     VStack(alignment: .leading, spacing: 4) {
+                        // Always show English name as main title
                         Text(herb.englishName)
                             .font(.system(size: 18, weight: .semibold))
                             .foregroundColor(.primary)
@@ -274,6 +289,14 @@ struct ModernHerbCard: View {
                             .font(.system(size: 14, weight: .medium))
                             .foregroundColor(.secondary)
                             .italic()
+                        
+                        // Show localized name under scientific name if different from English
+                        if hasLocalizedName {
+                            Text(localizedName)
+                                .font(.system(size: 12, weight: .medium))
+                                .foregroundColor(.blue)
+                                .lineLimit(1)
+                        }
                     }
                     
                     Spacer()
