@@ -5,6 +5,7 @@ struct AilmentsView: View {
     @StateObject private var coreDataManager = CoreDataManager.shared
     @State private var searchText = ""
     @State private var selectedAilment: String?
+    @State private var selectedCategories: Set<String> = []
     
     var body: some View {
         NavigationView {
@@ -13,6 +14,14 @@ struct AilmentsView: View {
                 AilmentsSearchBar(text: $searchText)
                     .padding(.horizontal, 16)
                     .padding(.top, 8)
+                
+                // Categories Filter Section
+                CategoriesFilterSection(
+                    selectedCategories: $selectedCategories,
+                    categories: availableCategories
+                )
+                .padding(.horizontal, 16)
+                .padding(.top, 8)
                 
                 if dataService.isLoading {
                     ModernLoadingView()
@@ -50,21 +59,46 @@ struct AilmentsView: View {
         }
     }
     
+    private var availableCategories: [String] {
+        return Array(Set(dataService.herbs.map { $0.category })).sorted()
+    }
+    
     private var filteredAilments: [String] {
         let allAilments = Set(dataService.herbs.flatMap { $0.ailments })
         let sortedAilments = Array(allAilments).sorted()
         
-        if searchText.isEmpty {
-            return sortedAilments
-        } else {
-            return sortedAilments.filter { $0.localizedCaseInsensitiveContains(searchText) }
+        var filtered = sortedAilments
+        
+        // Apply search filter
+        if !searchText.isEmpty {
+            filtered = filtered.filter { $0.localizedCaseInsensitiveContains(searchText) }
         }
+        
+        // Apply category filter - only show ailments that have herbs in selected categories
+        if !selectedCategories.isEmpty {
+            filtered = filtered.filter { ailment in
+                let herbsForAilment = dataService.herbs.filter { herb in
+                    herb.ailments.contains { $0.localizedCaseInsensitiveContains(ailment) }
+                }
+                let herbsInSelectedCategories = herbsForAilment.filter { selectedCategories.contains($0.category) }
+                return !herbsInSelectedCategories.isEmpty
+            }
+        }
+        
+        return filtered
     }
     
     private func herbsForAilment(_ ailment: String) -> [Herb] {
-        return dataService.herbs.filter { herb in
+        var herbs = dataService.herbs.filter { herb in
             herb.ailments.contains { $0.localizedCaseInsensitiveContains(ailment) }
         }
+        
+        // Apply category filter if categories are selected
+        if !selectedCategories.isEmpty {
+            herbs = herbs.filter { selectedCategories.contains($0.category) }
+        }
+        
+        return herbs
     }
 }
 
@@ -301,6 +335,134 @@ struct AilmentsSearchBar: View {
             RoundedRectangle(cornerRadius: 12)
                 .fill(Color(.systemGray6))
         )
+    }
+}
+
+// MARK: - Categories Filter Section
+struct CategoriesFilterSection: View {
+    @Binding var selectedCategories: Set<String>
+    let categories: [String]
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            HStack {
+                Text("Categories")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundColor(.primary)
+                
+                Spacer()
+                
+                if !selectedCategories.isEmpty {
+                    Button("Clear All") {
+                        selectedCategories.removeAll()
+                    }
+                    .font(.system(size: 14, weight: .medium))
+                    .foregroundColor(.blue)
+                }
+            }
+            
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 3), spacing: 8) {
+                ForEach(categories, id: \.self) { category in
+                    CategoryFilterChip(
+                        category: category,
+                        isSelected: selectedCategories.contains(category)
+                    ) {
+                        if selectedCategories.contains(category) {
+                            selectedCategories.remove(category)
+                        } else {
+                            selectedCategories.insert(category)
+                        }
+                    }
+                }
+            }
+        }
+        .padding(16)
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color(.systemGray6))
+        )
+    }
+}
+
+// MARK: - Category Filter Chip
+struct CategoryFilterChip: View {
+    let category: String
+    let isSelected: Bool
+    let onTap: () -> Void
+    
+    var body: some View {
+        Button(action: onTap) {
+            HStack(spacing: 6) {
+                Image(systemName: categoryIcon(for: category))
+                    .font(.system(size: 12, weight: .medium))
+                    .foregroundColor(isSelected ? .white : categoryColor(for: category))
+                
+                Text(category.capitalized)
+                    .font(.system(size: 12, weight: .medium))
+                    .foregroundColor(isSelected ? .white : .primary)
+            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 8)
+            .background(
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(isSelected ? categoryColor(for: category) : Color(.systemBackground))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(categoryColor(for: category), lineWidth: isSelected ? 0 : 1)
+                    )
+            )
+        }
+        .buttonStyle(PlainButtonStyle())
+    }
+    
+    private func categoryColor(for category: String) -> Color {
+        switch category.lowercased() {
+        case "herb":
+            return .green
+        case "refresher":
+            return .blue
+        case "spice":
+            return .orange
+        case "fruit":
+            return .red
+        case "vegetable":
+            return .purple
+        case "bark":
+            return .brown
+        case "root":
+            return .orange
+        case "tonic":
+            return .purple
+        case "mixed tonic":
+            return .indigo
+        default:
+            return .gray
+        }
+    }
+    
+    private func categoryIcon(for category: String) -> String {
+        switch category.lowercased() {
+        case "herb":
+            return "leaf.fill"
+        case "refresher":
+            return "drop.fill"
+        case "spice":
+            return "flame.fill"
+        case "fruit":
+            return "applelogo"
+        case "vegetable":
+            return "carrot.fill"
+        case "bark":
+            return "tree.fill"
+        case "root":
+            return "leaf.arrow.circlepath"
+        case "tonic":
+            return "cup.and.saucer.fill"
+        case "mixed tonic":
+            return "drop.triangle.fill"
+        default:
+            return "leaf"
+        }
     }
 }
 

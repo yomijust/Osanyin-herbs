@@ -6,6 +6,7 @@ enum HerbCategory: String, CaseIterable, Codable {
     case roots = "Root"
     case barks = "Bark"
     case tonics = "Tonic"
+    case mixedTonics = "Mixed Tonic"
     
     var displayName: String {
         switch self {
@@ -13,6 +14,7 @@ enum HerbCategory: String, CaseIterable, Codable {
         case .roots: return "Roots"
         case .barks: return "Barks"
         case .tonics: return "Tonics"
+        case .mixedTonics: return "Mixed Tonics"
         }
     }
     
@@ -22,6 +24,7 @@ enum HerbCategory: String, CaseIterable, Codable {
         case .roots: return "🥕"
         case .barks: return "🪵"
         case .tonics: return "🧉"
+        case .mixedTonics: return "🍯"
         }
     }
 }

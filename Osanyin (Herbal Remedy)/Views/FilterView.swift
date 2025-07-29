@@ -4,6 +4,7 @@ struct FilterView: View {
     @Binding var selectedCategory: String?
     @Binding var selectedContinent: Continent?
     let categories: [String]
+    let dataService: DataService
     
     @Environment(\.dismiss) private var dismiss
     
@@ -12,14 +13,21 @@ struct FilterView: View {
             VStack(spacing: 20) {
                 // Categories Section
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Categories")
-                        .font(.headline)
-                        .padding(.horizontal)
+                    HStack {
+                        Text("Categories")
+                            .font(.headline)
+                        Spacer()
+                        Text("(\(getTotalFilteredCount()) herbs)")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }
+                    .padding(.horizontal)
                     
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10), count: 2), spacing: 10) {
                         ForEach(categories, id: \.self) { category in
                             FilterOptionCard(
                                 title: category,
+                                count: getCategoryCount(category),
                                 isSelected: selectedCategory == category
                             ) {
                                 if selectedCategory == category {
@@ -44,6 +52,7 @@ struct FilterView: View {
                             FilterOptionCard(
                                 title: continent.displayName,
                                 subtitle: continent.emoji,
+                                count: getContinentCount(continent),
                                 isSelected: selectedContinent == continent
                             ) {
                                 if selectedContinent == continent {
@@ -93,17 +102,44 @@ struct FilterView: View {
             }
         }
     }
+    
+    // MARK: - Helper Methods
+    private func getCategoryCount(_ category: String) -> Int {
+        return dataService.getHerbsByCategory(category).count
+    }
+    
+    private func getContinentCount(_ continent: Continent) -> Int {
+        return dataService.getHerbsByContinent(continent).count
+    }
+    
+    private func getTotalFilteredCount() -> Int {
+        var filteredHerbs = dataService.herbs
+        
+        // Apply category filter
+        if let selectedCategory = selectedCategory {
+            filteredHerbs = filteredHerbs.filter { $0.category.lowercased() == selectedCategory.lowercased() }
+        }
+        
+        // Apply continent filter
+        if let selectedContinent = selectedContinent {
+            filteredHerbs = filteredHerbs.filter { $0.continents.contains(selectedContinent.rawValue) }
+        }
+        
+        return filteredHerbs.count
+    }
 }
 
 struct FilterOptionCard: View {
     let title: String
     let subtitle: String?
+    let count: Int
     let isSelected: Bool
     let action: () -> Void
     
-    init(title: String, subtitle: String? = nil, isSelected: Bool, action: @escaping () -> Void) {
+    init(title: String, subtitle: String? = nil, count: Int = 0, isSelected: Bool, action: @escaping () -> Void) {
         self.title = title
         self.subtitle = subtitle
+        self.count = count
         self.isSelected = isSelected
         self.action = action
     }
@@ -116,11 +152,18 @@ struct FilterOptionCard: View {
                         .font(.title2)
                 }
                 
-                Text(title)
-                    .font(.caption)
-                    .fontWeight(.medium)
-                    .foregroundColor(.primary)
-                    .multilineTextAlignment(.center)
+                HStack(spacing: 4) {
+                    Text(title)
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .foregroundColor(.primary)
+                        .multilineTextAlignment(.center)
+                    
+                    Text("(\(count))")
+                        .font(.caption2)
+                        .fontWeight(.medium)
+                        .foregroundColor(.secondary)
+                }
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 12)
@@ -141,6 +184,7 @@ struct FilterOptionCard: View {
     FilterView(
         selectedCategory: .constant(nil),
         selectedContinent: .constant(nil),
-        categories: ["Herb", "Refresher", "Spice"]
+        categories: ["Herb", "Refresher", "Spice"],
+        dataService: DataService.shared
     )
 } 

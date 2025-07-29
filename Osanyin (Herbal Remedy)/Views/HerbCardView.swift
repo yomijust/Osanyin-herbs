@@ -79,7 +79,8 @@ struct HerbCardView: View {
                 Text(herb.description)
                     .font(.body)
                     .foregroundColor(.primary)
-                    .lineLimit(3)
+                    .lineLimit(nil)
+                    .multilineTextAlignment(.leading)
                 
                 // Category and continents
                 HStack {

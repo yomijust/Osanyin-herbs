@@ -43,12 +43,12 @@ struct HeroView: View {
                             .padding(.horizontal, 30)
                         
                         // Category Selection
-                        VStack(spacing: 15) {
+                        VStack(spacing: 12) {
                             Text("Select a Category")
                                 .font(.headline)
                                 .foregroundColor(.primary)
                             
-                            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 12), count: 2), spacing: 12) {
+                            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 3), spacing: 8) {
                                 ForEach(HerbCategory.allCases, id: \.self) { category in
                                     CategoryCard(
                                         category: category,
@@ -203,30 +203,30 @@ struct CategoryCard: View {
     
     var body: some View {
         Button(action: action) {
-            VStack(spacing: 8) {
+            VStack(spacing: 6) {
                 Text(category.emoji)
-                    .font(.system(size: 32))
+                    .font(.system(size: 24))
                 
                 Text(category.displayName)
-                    .font(.subheadline)
+                    .font(.caption)
                     .fontWeight(.medium)
                     .foregroundColor(.primary)
                     .lineLimit(2)
                     .multilineTextAlignment(.center)
                 
                 Text("\(herbCount) items")
-                    .font(.caption)
+                    .font(.caption2)
                     .foregroundColor(.secondary)
             }
             .frame(maxWidth: .infinity)
-            .padding(.vertical, 16)
+            .padding(.vertical, 12)
             .background(
-                RoundedRectangle(cornerRadius: 12)
+                RoundedRectangle(cornerRadius: 10)
                     .fill(isSelected ? Color.green.opacity(0.2) : Color.white.opacity(0.9))
-                    .shadow(color: .black.opacity(0.1), radius: 3, x: 0, y: 1)
+                    .shadow(color: .black.opacity(0.1), radius: 2, x: 0, y: 1)
             )
             .overlay(
-                RoundedRectangle(cornerRadius: 12)
+                RoundedRectangle(cornerRadius: 10)
                     .stroke(isSelected ? Color.green : Color.clear, lineWidth: 2)
             )
         }

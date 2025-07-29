@@ -90,7 +90,8 @@ struct HerbListView: View {
                 FilterView(
                     selectedCategory: $selectedCategory,
                     selectedContinent: $selectedContinent,
-                    categories: dataService.getCategories()
+                    categories: dataService.getCategories(),
+                    dataService: dataService
                 )
             }
             .sheet(isPresented: $showingFavorites) {

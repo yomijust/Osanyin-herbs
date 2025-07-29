@@ -206,13 +206,10 @@ struct CompactHeaderSection: View {
                     }
                     
                     // Wikipedia Link
-                    if let url = URL(string: herb.wikipediaUrl) {
+                    let wikipediaUrlString = "https://en.wikipedia.org/wiki/\(herb.englishName.replacingOccurrences(of: " ", with: "_"))"
+                    if let url = URL(string: wikipediaUrlString) {
                         Button(action: {
-                            let safariVC = SFSafariViewController(url: url)
-                            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-                               let window = windowScene.windows.first {
-                                window.rootViewController?.present(safariVC, animated: true)
-                            }
+                            UIApplication.shared.open(url)
                         }) {
                             HStack(spacing: 4) {
                                 Image(systemName: "globe")
@@ -382,7 +379,8 @@ struct CompactInfoCard: View {
             Text(content)
                 .font(.system(size: 14))
                 .foregroundColor(.primary)
-                .lineLimit(3)
+                .lineLimit(nil)
+                .multilineTextAlignment(.leading)
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -912,10 +910,15 @@ struct CompactWikipediaButton: View {
     
     var body: some View {
         Button(action: {
-            let safariVC = SFSafariViewController(url: url)
-            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
-               let window = windowScene.windows.first {
-                window.rootViewController?.present(safariVC, animated: true)
+            print("🔍 DEBUG: Tapped CompactWikipediaButton")
+            print("🔍 DEBUG: URL = \(url)")
+            
+            UIApplication.shared.open(url) { success in
+                if success {
+                    print("✅ DEBUG: Successfully opened URL in Safari")
+                } else {
+                    print("❌ DEBUG: Failed to open URL in Safari")
+                }
             }
         }) {
             HStack(spacing: 8) {

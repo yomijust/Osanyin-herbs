@@ -299,7 +299,7 @@ class DataService: ObservableObject {
     }
     
     func getHerbsByCategory(_ category: String) -> [Herb] {
-        return herbs.filter { $0.category == category }
+        return herbs.filter { $0.category.lowercased() == category.lowercased() }
     }
     
     func getCategories() -> [String] {
