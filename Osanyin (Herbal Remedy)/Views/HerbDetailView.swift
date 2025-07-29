@@ -145,6 +145,20 @@ struct HerbDetailView: View {
 struct CompactHeaderSection: View {
     let herb: Herb
     let coreDataManager: CoreDataManager
+    @StateObject private var healthProfile = HealthProfileManager.shared
+    @StateObject private var localizationService = LocalizationService.shared
+    
+    private var localizedName: String {
+        return localizationService.getLocalizedName(
+            for: herb,
+            userLocation: healthProfile.location,
+            userLanguages: healthProfile.additionalLanguages
+        )
+    }
+    
+    private var hasLocalizedName: Bool {
+        return localizedName != herb.englishName
+    }
     
     var body: some View {
         VStack(spacing: 16) {
@@ -169,6 +183,13 @@ struct CompactHeaderSection: View {
                         .font(.system(size: 14, weight: .medium))
                         .foregroundColor(.secondary)
                         .italic()
+                    
+                    // Show localized name if different from English
+                    if hasLocalizedName {
+                        Text("Localized Name: \(localizedName)")
+                            .font(.system(size: 12, weight: .medium))
+                            .foregroundColor(.blue)
+                    }
                     
                     // Wikipedia Link
                     if let url = URL(string: herb.wikipediaUrl) {
