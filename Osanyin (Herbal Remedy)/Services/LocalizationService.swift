@@ -217,4 +217,33 @@ class LocalizationService: ObservableObject {
         
         return countryNames[countryCode] ?? countryCode
     }
+    
+    /// Get the language name for display purposes when a localized name is found
+    func getLocalizedLanguageName(for herb: Herb, userLocation: String, userLanguages: [String]) -> String? {
+        // First, try to find a name based on user's location
+        if let locationBasedName = getLocationBasedName(for: herb, userLocation: userLocation) {
+            // Find the country code for this location
+            let location = userLocation.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+            if let countryCode = locationToCountryCode[location] {
+                return getCountryName(from: countryCode)
+            }
+        }
+        
+        // Then, try to find a name based on user's languages
+        for language in userLanguages {
+            let languageLower = language.lowercased()
+            
+            // Get country codes for this language
+            if let countryCodes = languageToCountryCode[languageLower] {
+                // Try each country code for this language
+                for countryCode in countryCodes {
+                    if let localName = herb.localNames[countryCode] {
+                        return language.capitalized
+                    }
+                }
+            }
+        }
+        
+        return nil
+    }
 } 

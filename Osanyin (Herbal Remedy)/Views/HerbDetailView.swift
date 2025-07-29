@@ -160,6 +160,14 @@ struct CompactHeaderSection: View {
         return localizedName != herb.englishName
     }
     
+    private var localizedLanguageName: String? {
+        return localizationService.getLocalizedLanguageName(
+            for: herb,
+            userLocation: healthProfile.location,
+            userLanguages: healthProfile.additionalLanguages
+        )
+    }
+    
     var body: some View {
         VStack(spacing: 16) {
             // Category Icon and Title
@@ -186,9 +194,15 @@ struct CompactHeaderSection: View {
                     
                     // Show localized name if different from English
                     if hasLocalizedName {
-                        Text("Localized Name: \(localizedName)")
-                            .font(.system(size: 12, weight: .medium))
-                            .foregroundColor(.blue)
+                        if let languageName = localizedLanguageName {
+                            Text("\(languageName) Name: \(localizedName)")
+                                .font(.system(size: 12, weight: .medium))
+                                .foregroundColor(.blue)
+                        } else {
+                            Text("Localized Name: \(localizedName)")
+                                .font(.system(size: 12, weight: .medium))
+                                .foregroundColor(.blue)
+                        }
                     }
                     
                     // Wikipedia Link

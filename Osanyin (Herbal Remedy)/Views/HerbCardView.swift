@@ -22,6 +22,14 @@ struct HerbCardView: View {
         return localizedName != herb.englishName
     }
     
+    private var localizedLanguageName: String? {
+        return localizationService.getLocalizedLanguageName(
+            for: herb,
+            userLocation: healthProfile.location,
+            userLanguages: healthProfile.additionalLanguages
+        )
+    }
+    
     var body: some View {
         Button(action: {
             showingDetail = true
@@ -43,10 +51,17 @@ struct HerbCardView: View {
                         
                         // Show localized name under scientific name if different from English
                         if hasLocalizedName {
-                            Text("Localized Name: \(localizedName)")
-                                .font(.caption)
-                                .foregroundColor(.blue)
-                                .lineLimit(1)
+                            if let languageName = localizedLanguageName {
+                                Text("\(languageName) Name: \(localizedName)")
+                                    .font(.caption)
+                                    .foregroundColor(.blue)
+                                    .lineLimit(1)
+                            } else {
+                                Text("Localized Name: \(localizedName)")
+                                    .font(.caption)
+                                    .foregroundColor(.blue)
+                                    .lineLimit(1)
+                            }
                         }
                     }
                     
