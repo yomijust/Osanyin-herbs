@@ -124,6 +124,9 @@ struct HealthProfileDetailView: View {
                     // Basic Information
                     BasicInfoSection(healthProfile: healthProfile)
                     
+                    // Location & Languages
+                    LocationLanguagesSection(healthProfile: healthProfile)
+                    
                     // Health Conditions
                     HealthConditionsSection(
                         healthProfile: healthProfile,
@@ -181,6 +184,7 @@ struct BasicInfoSection: View {
     @State private var showingAgeEditor = false
     @State private var showingWeightEditor = false
     @State private var showingHeightEditor = false
+    @State private var showingLocationEditor = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -213,6 +217,15 @@ struct BasicInfoSection: View {
                 ) {
                     showingHeightEditor = true
                 }
+                
+                InfoRow(
+                    title: "Location",
+                    value: healthProfile.location.isEmpty ? "Not set" : healthProfile.location,
+                    icon: "location.fill",
+                    color: .purple
+                ) {
+                    showingLocationEditor = true
+                }
             }
         }
         .sheet(isPresented: $showingAgeEditor) {
@@ -223,6 +236,56 @@ struct BasicInfoSection: View {
         }
         .sheet(isPresented: $showingHeightEditor) {
             EditHeightView(healthProfile: healthProfile)
+        }
+        .sheet(isPresented: $showingLocationEditor) {
+            EditLocationView(healthProfile: healthProfile)
+        }
+    }
+}
+
+// MARK: - Location & Languages Section
+struct LocationLanguagesSection: View {
+    @ObservedObject var healthProfile: HealthProfileManager
+    @State private var showingAddLanguage = false
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack {
+                SettingsSectionHeader(title: "Location & Languages", icon: "globe", color: .blue)
+                
+                Spacer()
+                
+                Button(action: {
+                    showingAddLanguage = true
+                }) {
+                    Image(systemName: "plus.circle.fill")
+                        .font(.system(size: 20))
+                        .foregroundColor(.green)
+                }
+            }
+            
+            VStack(spacing: 12) {
+                // Languages List
+                if healthProfile.additionalLanguages.isEmpty {
+                    EmptyStateView(
+                        icon: "globe",
+                        title: "No Languages Added",
+                        message: "Add languages you speak to get localized herb names"
+                    )
+                } else {
+                    ForEach(healthProfile.additionalLanguages, id: \.self) { language in
+                        LanguageCard(
+                            language: language,
+                            onRemove: {
+                                healthProfile.removeLanguage(language)
+                            }
+                        )
+                    }
+                }
+            }
+        }
+        .sheet(isPresented: $showingAddLanguage) {
+            AddLanguageView(healthProfile: healthProfile)
         }
     }
 }
@@ -975,6 +1038,35 @@ struct MedicationCard: View {
     }
 }
 
+struct LanguageCard: View {
+    let language: String
+    let onRemove: () -> Void
+    
+    var body: some View {
+        HStack {
+            Image(systemName: "text.bubble.fill")
+                .foregroundColor(.blue)
+            
+            Text(language)
+                .font(.system(size: 16, weight: .medium))
+                .foregroundColor(.primary)
+            
+            Spacer()
+            
+            Button(action: onRemove) {
+                Image(systemName: "xmark.circle.fill")
+                    .foregroundColor(.secondary)
+            }
+        }
+        .padding(12)
+        .background(
+            RoundedRectangle(cornerRadius: 8)
+                .fill(Color(.systemBackground))
+                .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
+        )
+    }
+}
+
 struct SafetyWarningCard: View {
     let title: String
     let message: String
@@ -1346,6 +1438,181 @@ struct EditHeightView: View {
     }
 }
 
+// MARK: - Edit Location View
+struct EditLocationView: View {
+    @ObservedObject var healthProfile: HealthProfileManager
+    @Environment(\.dismiss) private var dismiss
+    @State private var location = ""
+    
+    var body: some View {
+        NavigationView {
+            VStack(spacing: 24) {
+                // Icon and title
+                VStack(spacing: 16) {
+                    Image(systemName: "location.fill")
+                        .font(.system(size: 60))
+                        .foregroundColor(.purple)
+                    
+                    Text("Edit Location")
+                        .font(.system(size: 24, weight: .bold))
+                        .foregroundColor(.primary)
+                    
+                    Text("Your location helps us provide region-specific herb recommendations")
+                        .font(.system(size: 16))
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
+                }
+                
+                // Location input
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Location")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundColor(.primary)
+                    
+                    TextField("Enter your location (city, country)", text: $location)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .font(.system(size: 18))
+                }
+                
+                // Location benefits
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Location Benefits")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundColor(.primary)
+                    
+                    VStack(alignment: .leading, spacing: 8) {
+                        LocationBenefitRow(icon: "leaf.fill", description: "Region-specific herb availability")
+                        LocationBenefitRow(icon: "globe", description: "Local herb names and traditions")
+                        LocationBenefitRow(icon: "thermometer", description: "Climate-appropriate recommendations")
+                    }
+                }
+                .padding(16)
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(Color(.systemGray6))
+                )
+                
+                Spacer()
+            }
+            .padding(24)
+            .navigationTitle("Edit Location")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancel") {
+                        dismiss()
+                    }
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Save") {
+                        healthProfile.updateLocation(location.trimmingCharacters(in: .whitespacesAndNewlines))
+                        dismiss()
+                    }
+                    .disabled(location.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                }
+            }
+            .onAppear {
+                location = healthProfile.location
+            }
+        }
+    }
+}
+
+// MARK: - Add Language View
+struct AddLanguageView: View {
+    @ObservedObject var healthProfile: HealthProfileManager
+    @Environment(\.dismiss) private var dismiss
+    @State private var selectedLanguage = ""
+    
+    private let commonLanguages = [
+        "English", "Spanish", "French", "German", "Italian", "Portuguese",
+        "Russian", "Chinese", "Japanese", "Korean", "Arabic", "Hindi",
+        "Bengali", "Urdu", "Turkish", "Dutch", "Swedish", "Norwegian",
+        "Danish", "Finnish", "Polish", "Czech", "Hungarian", "Romanian",
+        "Bulgarian", "Greek", "Hebrew", "Thai", "Vietnamese", "Indonesian",
+        "Malay", "Filipino", "Swahili", "Yoruba", "Igbo", "Hausa",
+        "Amharic", "Somali", "Zulu", "Xhosa", "Afrikaans"
+    ]
+    
+    var body: some View {
+        NavigationView {
+            VStack(spacing: 24) {
+                // Icon and title
+                VStack(spacing: 16) {
+                    Image(systemName: "text.bubble.fill")
+                        .font(.system(size: 60))
+                        .foregroundColor(.blue)
+                    
+                    Text("Add Language")
+                        .font(.system(size: 24, weight: .bold))
+                        .foregroundColor(.primary)
+                    
+                    Text("Add languages you speak to get localized herb names")
+                        .font(.system(size: 16))
+                        .foregroundColor(.secondary)
+                        .multilineTextAlignment(.center)
+                }
+                
+                // Language selection
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("Select Language")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundColor(.primary)
+                    
+                    Picker("Language", selection: $selectedLanguage) {
+                        Text("Select a language").tag("")
+                        ForEach(commonLanguages, id: \.self) { language in
+                            Text(language).tag(language)
+                        }
+                    }
+                    .pickerStyle(MenuPickerStyle())
+                }
+                
+                // Language benefits
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Language Benefits")
+                        .font(.system(size: 16, weight: .semibold))
+                        .foregroundColor(.primary)
+                    
+                    VStack(alignment: .leading, spacing: 8) {
+                        LanguageBenefitRow(icon: "text.bubble", description: "See herb names in your language")
+                        LanguageBenefitRow(icon: "book", description: "Access traditional knowledge")
+                        LanguageBenefitRow(icon: "person.2", description: "Better communication with local healers")
+                    }
+                }
+                .padding(16)
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(Color(.systemGray6))
+                )
+                
+                Spacer()
+            }
+            .padding(24)
+            .navigationTitle("Add Language")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Cancel") {
+                        dismiss()
+                    }
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Add") {
+                        if !selectedLanguage.isEmpty {
+                            healthProfile.addLanguage(selectedLanguage)
+                            dismiss()
+                        }
+                    }
+                    .disabled(selectedLanguage.isEmpty)
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Supporting Views for Edit Forms
 struct AgeGuidelineRow: View {
     let age: String
@@ -1417,6 +1684,46 @@ struct BMIGuidelineRow: View {
                     .font(.system(size: 12))
                     .foregroundColor(.secondary)
             }
+            
+            Spacer()
+        }
+    }
+}
+
+struct LocationBenefitRow: View {
+    let icon: String
+    let description: String
+    
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 16))
+                .foregroundColor(.purple)
+                .frame(width: 20)
+            
+            Text(description)
+                .font(.system(size: 14))
+                .foregroundColor(.primary)
+            
+            Spacer()
+        }
+    }
+}
+
+struct LanguageBenefitRow: View {
+    let icon: String
+    let description: String
+    
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 16))
+                .foregroundColor(.blue)
+                .frame(width: 20)
+            
+            Text(description)
+                .font(.system(size: 14))
+                .foregroundColor(.primary)
             
             Spacer()
         }

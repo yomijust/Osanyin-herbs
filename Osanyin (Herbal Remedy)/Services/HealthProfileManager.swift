@@ -54,6 +54,8 @@ class HealthProfileManager: ObservableObject {
     @Published var medications: [String] = []
     @Published var isPregnant: Bool = false
     @Published var isNursing: Bool = false
+    @Published var location: String = ""
+    @Published var additionalLanguages: [String] = []
     @Published var savedDosages: [DosageResult] = []
     
     // MARK: - Computed Properties
@@ -173,6 +175,25 @@ class HealthProfileManager: ObservableObject {
         saveProfile()
     }
     
+    // MARK: - Location Management
+    func updateLocation(_ newLocation: String) {
+        location = newLocation
+        saveProfile()
+    }
+    
+    // MARK: - Languages Management
+    func addLanguage(_ language: String) {
+        if !additionalLanguages.contains(language) {
+            additionalLanguages.append(language)
+            saveProfile()
+        }
+    }
+    
+    func removeLanguage(_ language: String) {
+        additionalLanguages.removeAll { $0 == language }
+        saveProfile()
+    }
+    
     // MARK: - Profile Management
     func updateBasicInfo(age: Int, weight: Double, height: Double) {
         self.age = age
@@ -216,6 +237,8 @@ class HealthProfileManager: ObservableObject {
         medications.removeAll()
         isPregnant = false
         isNursing = false
+        location = ""
+        additionalLanguages.removeAll()
         saveProfile()
     }
     
@@ -380,7 +403,9 @@ class HealthProfileManager: ObservableObject {
             allergies: allergies,
             medications: medications,
             isPregnant: isPregnant,
-            isNursing: isNursing
+            isNursing: isNursing,
+            location: location,
+            additionalLanguages: additionalLanguages
         )
         
         if let encoded = try? JSONEncoder().encode(profile) {
@@ -401,6 +426,8 @@ class HealthProfileManager: ObservableObject {
             medications = profile.medications
             isPregnant = profile.isPregnant
             isNursing = profile.isNursing
+            location = profile.location
+            additionalLanguages = profile.additionalLanguages
         }
         
         // Load saved dosages
@@ -450,6 +477,8 @@ struct HealthProfile: Codable {
     let medications: [String]
     let isPregnant: Bool
     let isNursing: Bool
+    let location: String
+    let additionalLanguages: [String]
 }
 
 // MARK: - Add Health Condition View
