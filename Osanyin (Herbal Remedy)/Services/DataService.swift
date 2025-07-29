@@ -16,6 +16,7 @@ class DataService: ObservableObject {
     
     // GitHub raw URLs for the herbs data - multiple fallbacks
     private let herbsURLs = [
+        "https://raw.githubusercontent.com/yomijust/Osanyin-herbs/main/Osanyin%20%28Herbal%20Remedy%29/herbs.json",
         "https://raw.githubusercontent.com/yomijust/Osanyin-herbs/main/herbs.json",
         "https://raw.githubusercontent.com/yomijust/Osanyin-herbs/refs/heads/main/herbs.json"
     ]
